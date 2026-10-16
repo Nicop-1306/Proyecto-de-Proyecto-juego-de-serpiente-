@@ -1,0 +1,70 @@
+{
+ "format": "benchtwin",
+ "version": 1,
+ "exportedAt": "2026-10-16T19:02:10.723Z",
+ "name": "Proyecto BenchTwin 1",
+ "uidN": 5,
+ "parts": [
+  {
+   "uid": "u1",
+   "type": "uno",
+   "x": -72,
+   "z": -26,
+   "rot": 0,
+   "props": {
+    "power": "usb"
+   },
+   "label": "Uno 1"
+  },
+  {
+   "uid": "u2",
+   "type": "tft-st7735-18",
+   "x": -12,
+   "z": -11,
+   "rot": 0,
+   "props": {},
+   "label": "DS1"
+  }
+ ],
+ "wires": [
+  {
+   "a": "u1|5V",
+   "b": "u2|VCC",
+   "color": "#e53935"
+  },
+  {
+   "a": "u1|GND",
+   "b": "u2|GND"
+  },
+  {
+   "a": "u1|D10",
+   "b": "u2|CS",
+   "color": "#43a047"
+  },
+  {
+   "a": "u1|D8",
+   "b": "u2|RESET",
+   "color": "#f4c20d"
+  },
+  {
+   "a": "u1|D9",
+   "b": "u2|A0",
+   "color": "#1e88e5"
+  },
+  {
+   "a": "u1|D11",
+   "b": "u2|SDA",
+   "color": "#fb8c00"
+  },
+  {
+   "a": "u2|SCK",
+   "b": "u1|D13"
+  },
+  {
+   "a": "u2|LED",
+   "b": "u1|3V3"
+  }
+ ],
+ "code": "#include <Adafruit_GFX.h>\n#include <Adafruit_ST7735.h>\n#include <SPI.h>\n\n#define TFT_CS  10\n#define TFT_DC  9\n#define TFT_RST 8\nAdafruit_ST7735 pantalla = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);\nint serpientepos[] = {65,70};\n\nvoid setup() \n{\n  pantalla .initR(INITR_BLACKTAB);\n  pantalla .fillScreen(ST77XX_WHITE);\n  pantalla .fillCircle(serpientepos[0],serpientepos[1],3, ST77XX_GREEN);\n  \n}\n\nvoid loop() \n{\n  \n  pantalla.fillRect(serpientepos[0] - 3,serpientepos[1]+10,7,15,ST77XX_WHITE);\n  delay(1000);\n  \n  pantalla .fillCircle(serpientepos[0],serpientepos[1],3, ST77XX_GREEN);\n   pantalla.fillRect(serpientepos[0]-2,serpientepos[1]+3, 5, 10, ST77XX_GREEN);\n  pantalla.drawPixel(serpientepos[0]-2,serpientepos[1]-1, ST77XX_BLACK);\n  pantalla.drawPixel(serpientepos[0]+2,serpientepos[1]-1, ST77XX_BLACK);\n  pantalla.drawLine(serpientepos[0], serpientepos[1]-2, serpientepos[0], serpientepos[1]-3, ST77XX_RED);\n\nserpientepos[1]--;\n}\n\n",
+ "prog": null
+}
