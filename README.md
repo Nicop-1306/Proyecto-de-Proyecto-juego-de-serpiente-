@@ -1,6 +1,3 @@
-# Proyecto-de-Proyecto-juego-de-serpiente-
-juego 2D de la serpiente para el proyecto de proyecto
-
 #include <Adafruit_GFX.h>
 #include <Adafruit_ST7735.h>
 #include <SPI.h>
@@ -18,10 +15,25 @@ void setup()
   pantalla .initR(INITR_BLACKTAB);  //inicia la pantalla
   pantalla .fillScreen(ST77XX_WHITE);  // rellena la pantalla(fondo)
   
-  pantalla.setTextSize(2);             // Tamaño del texto (1 es el más chico, 2 es mediano, etc.)
+  pantalla.setTextSize(2);             // Tamaño del texto (2 es mediano)
   pantalla.setTextColor(ST77XX_BLACK); // Color del texto (Letras negras)
-  pantalla.setCursor(35, 30);          // Posición del cursor en la pantalla (X=35, Y=30)
-  pantalla.print("Nivel");             // El texto que querés mostrar
+  pantalla.setCursor(36, 30);          // Posición del cursor en la pantalla (X=36, Y=30)
+  pantalla.print("Nivel");             // El texto que se muestra
+  
+  pantalla.setTextSize(2);             // Tamaño del texto (2 es mediano)
+  pantalla.setTextColor(ST77XX_BLACK); // Color del texto (Letras negras)
+  pantalla.setCursor(60, 100);          // Posición del cursor en la pantalla (X=60, Y=100)
+  pantalla.print("1");             // El texto que querés mostrar
+  
+  pantalla.setTextSize(2);             // Tamaño del texto (2 es mediano)
+  pantalla.setTextColor(ST77XX_BLACK); // Color del texto (Letras negras)
+  pantalla.setCursor(30, 100);          // Posición del cursor en la pantalla (X=30, Y=100)
+  pantalla.print("<-");             // El texto que querés mostrar
+  
+  pantalla.setTextSize(2);             // Tamaño del texto (2 es mediano)
+  pantalla.setTextColor(ST77XX_BLACK); // Color del texto (Letras negras)
+  pantalla.setCursor(76, 100);          // Posición del cursor en la pantalla (X=76, Y=100)
+  pantalla.print("->");             // El texto que querés mostrar
   
   pantalla .fillCircle(serpientepos[0],serpientepos[1],3, ST77XX_GREEN);  //cabeza de serpiente(posX, posY, radio, color)
   pantalla.fillRect(serpientepos[0]-2,serpientepos[1]+3, 5, 10, ST77XX_GREEN);  //cuerpo de la serpiente (posX, posY, ancho, alto, color)
