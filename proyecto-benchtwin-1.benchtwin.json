@@ -1,9 +1,9 @@
 {
  "format": "benchtwin",
  "version": 1,
- "exportedAt": "2026-10-30T18:43:06.401Z",
+ "exportedAt": "2026-11-06T17:11:44.494Z",
  "name": "Proyecto BenchTwin 1",
- "uidN": 16,
+ "uidN": 18,
  "parts": [
   {
    "uid": "u1",
@@ -32,8 +32,8 @@
    "z": -25,
    "rot": 0,
    "props": {
-    "jx": 0,
-    "jy": 0
+    "jx": -1,
+    "jy": 0.25
    },
    "label": "SW1"
   },
@@ -54,18 +54,6 @@
    "color": "#e53935",
    "flex": {
     "k": "u1|5V>u2|VCC",
-    "ea": 1.4,
-    "s": 3.9513,
-    "la": [
-     -0.16,
-     0.99,
-     0.07
-    ],
-    "lb": [
-     0.16,
-     0.99,
-     -0.07
-    ],
     "a": [
      -85.96,
      11.2,
@@ -86,6 +74,18 @@
      0.99,
      -0.07
     ],
+    "la": [
+     -0.16,
+     0.99,
+     0.07
+    ],
+    "lb": [
+     0.16,
+     0.99,
+     -0.07
+    ],
+    "ea": 1.4,
+    "s": 3.9513,
     "p": [
      [
       0,
@@ -230,18 +230,6 @@
    "b": "u2|GND",
    "flex": {
     "k": "u1|GND>u2|GND",
-    "ea": 1.4,
-    "s": 3.934,
-    "la": [
-     -0.16,
-     0.99,
-     0.07
-    ],
-    "lb": [
-     0.15,
-     0.99,
-     -0.07
-    ],
     "a": [
      -83.42,
      11.2,
@@ -262,6 +250,18 @@
      0.99,
      -0.07
     ],
+    "la": [
+     -0.16,
+     0.99,
+     0.07
+    ],
+    "lb": [
+     0.15,
+     0.99,
+     -0.07
+    ],
+    "ea": 1.4,
+    "s": 3.934,
     "p": [
      [
       0,
@@ -402,18 +402,6 @@
    "color": "#43a047",
    "flex": {
     "k": "u1|D10>u2|CS",
-    "ea": 1.4,
-    "s": 3.9526,
-    "la": [
-     -0.16,
-     0.99,
-     -0.03
-    ],
-    "lb": [
-     0.15,
-     0.99,
-     0.03
-    ],
     "a": [
      -68.17,
      11.2,
@@ -434,6 +422,18 @@
      0.99,
      0.03
     ],
+    "la": [
+     -0.16,
+     0.99,
+     -0.03
+    ],
+    "lb": [
+     0.15,
+     0.99,
+     0.03
+    ],
+    "ea": 1.4,
+    "s": 3.9526,
     "p": [
      [
       0,
@@ -544,18 +544,6 @@
    "color": "#f4c20d",
    "flex": {
     "k": "u1|D8>u2|RESET",
-    "ea": 1.4,
-    "s": 4.0458,
-    "la": [
-     -0.15,
-     0.99,
-     -0.04
-    ],
-    "lb": [
-     0.14,
-     0.99,
-     0.03
-    ],
     "a": [
      -63.09,
      11.2,
@@ -576,6 +564,18 @@
      0.99,
      0.03
     ],
+    "la": [
+     -0.15,
+     0.99,
+     -0.04
+    ],
+    "lb": [
+     0.14,
+     0.99,
+     0.03
+    ],
+    "ea": 1.4,
+    "s": 4.0458,
     "p": [
      [
       0,
@@ -676,18 +676,6 @@
    "color": "#1e88e5",
    "flex": {
     "k": "u1|D9>u2|A0",
-    "ea": 1.4,
-    "s": 3.9381,
-    "la": [
-     -0.15,
-     0.99,
-     -0.04
-    ],
-    "lb": [
-     0.15,
-     0.99,
-     0.04
-    ],
     "a": [
      -65.63,
      11.2,
@@ -708,6 +696,18 @@
      0.99,
      0.04
     ],
+    "la": [
+     -0.15,
+     0.99,
+     -0.04
+    ],
+    "lb": [
+     0.15,
+     0.99,
+     0.04
+    ],
+    "ea": 1.4,
+    "s": 3.9381,
     "p": [
      [
       0,
@@ -808,18 +808,6 @@
    "color": "#fb8c00",
    "flex": {
     "k": "u1|D11>u2|SDA",
-    "ea": 1.4,
-    "s": 4.1291,
-    "la": [
-     -0.15,
-     0.99,
-     -0.04
-    ],
-    "lb": [
-     0.15,
-     0.99,
-     0.03
-    ],
     "a": [
      -70.71,
      11.2,
@@ -840,6 +828,18 @@
      0.99,
      0.03
     ],
+    "la": [
+     -0.15,
+     0.99,
+     -0.04
+    ],
+    "lb": [
+     0.15,
+     0.99,
+     0.03
+    ],
+    "ea": 1.4,
+    "s": 4.1291,
     "p": [
      [
       0,
@@ -939,18 +939,6 @@
    "b": "u1|D13",
    "flex": {
     "k": "u2|SCK>u1|D13",
-    "ea": 1.4,
-    "s": 4.0512,
-    "la": [
-     0.15,
-     0.99,
-     0.03
-    ],
-    "lb": [
-     -0.16,
-     0.99,
-     -0.03
-    ],
     "a": [
      -18.35,
      8.6,
@@ -971,6 +959,18 @@
      0.99,
      -0.03
     ],
+    "la": [
+     0.15,
+     0.99,
+     0.03
+    ],
+    "lb": [
+     -0.16,
+     0.99,
+     -0.03
+    ],
+    "ea": 1.4,
+    "s": 4.0512,
     "p": [
      [
       0,
@@ -1075,18 +1075,6 @@
    "b": "u1|3V3",
    "flex": {
     "k": "u2|LED>u1|3V3",
-    "ea": 1.4,
-    "s": 3.9154,
-    "la": [
-     0.15,
-     0.99,
-     -0.08
-    ],
-    "lb": [
-     -0.15,
-     0.99,
-     0.08
-    ],
     "a": [
      -20.89,
      8.6,
@@ -1107,6 +1095,18 @@
      0.99,
      0.08
     ],
+    "la": [
+     0.15,
+     0.99,
+     -0.08
+    ],
+    "lb": [
+     -0.15,
+     0.99,
+     0.08
+    ],
+    "ea": 1.4,
+    "s": 3.9154,
     "p": [
      [
       0,
@@ -1236,18 +1236,6 @@
    "b": "u16|a9",
    "flex": {
     "k": "u1|5V>u16|a9",
-    "ea": 1.4,
-    "s": 3.8287,
-    "la": [
-     -0.01,
-     1,
-     -0.06
-    ],
-    "lb": [
-     0.01,
-     1,
-     0.05
-    ],
     "a": [
      -85.96,
      11.2,
@@ -1268,6 +1256,18 @@
      1,
      0.05
     ],
+    "la": [
+     -0.01,
+     1,
+     -0.06
+    ],
+    "lb": [
+     0.01,
+     1,
+     0.05
+    ],
+    "ea": 1.4,
+    "s": 3.8287,
     "p": [
      [
       0,
@@ -1317,18 +1317,6 @@
    "b": "u16|d9",
    "flex": {
     "k": "u15|+5V>u16|d9",
-    "ea": 1.4,
-    "s": 3.9564,
-    "la": [
-     -0.14,
-     0.99,
-     -0.05
-    ],
-    "lb": [
-     0.15,
-     0.99,
-     0.05
-    ],
     "a": [
      -134.54,
      2.85,
@@ -1349,6 +1337,18 @@
      0.99,
      0.05
     ],
+    "la": [
+     -0.14,
+     0.99,
+     -0.05
+    ],
+    "lb": [
+     0.15,
+     0.99,
+     0.05
+    ],
+    "ea": 1.4,
+    "s": 3.9564,
     "p": [
      [
       0,
@@ -1448,18 +1448,6 @@
    "b": "u16|a12",
    "flex": {
     "k": "u1|GND>u16|a12",
-    "ea": 1.4,
-    "s": 3.8144,
-    "la": [
-     -0.04,
-     1,
-     -0.05
-    ],
-    "lb": [
-     0.03,
-     1,
-     0.04
-    ],
     "a": [
      -83.42,
      11.2,
@@ -1480,6 +1468,18 @@
      1,
      0.04
     ],
+    "la": [
+     -0.04,
+     1,
+     -0.05
+    ],
+    "lb": [
+     0.03,
+     1,
+     0.04
+    ],
+    "ea": 1.4,
+    "s": 3.8144,
     "p": [
      [
       0,
@@ -1534,18 +1534,6 @@
    "b": "u16|c12",
    "flex": {
     "k": "u15|GND>u16|c12",
-    "ea": 1.4,
-    "s": 3.9961,
-    "la": [
-     -0.11,
-     0.99,
-     -0.02
-    ],
-    "lb": [
-     0.12,
-     0.99,
-     0.03
-    ],
     "a": [
      -137.08,
      2.85,
@@ -1566,6 +1554,18 @@
      0.99,
      0.03
     ],
+    "la": [
+     -0.11,
+     0.99,
+     -0.02
+    ],
+    "lb": [
+     0.12,
+     0.99,
+     0.03
+    ],
+    "ea": 1.4,
+    "s": 3.9961,
     "p": [
      [
       0,
@@ -1700,18 +1700,6 @@
    "b": "u1|A1",
    "flex": {
     "k": "u15|VRy>u1|A1",
-    "ea": 1.4,
-    "s": 4.0066,
-    "la": [
-     -0.11,
-     0.99,
-     0
-    ],
-    "lb": [
-     0.14,
-     0.99,
-     0
-    ],
     "a": [
      -129.46,
      2.85,
@@ -1732,6 +1720,18 @@
      0.99,
      0
     ],
+    "la": [
+     -0.11,
+     0.99,
+     0
+    ],
+    "lb": [
+     0.14,
+     0.99,
+     0
+    ],
+    "ea": 1.4,
+    "s": 4.0066,
     "p": [
      [
       0,
@@ -1856,18 +1856,6 @@
    "b": "u1|D2",
    "flex": {
     "k": "u15|SW>u1|D2",
-    "ea": 1.4,
-    "s": 3.9692,
-    "la": [
-     -0.12,
-     0.99,
-     0.07
-    ],
-    "lb": [
-     0.14,
-     0.99,
-     -0.08
-    ],
     "a": [
      -126.92,
      2.85,
@@ -1888,6 +1876,18 @@
      0.99,
      -0.08
     ],
+    "la": [
+     -0.12,
+     0.99,
+     0.07
+    ],
+    "lb": [
+     0.14,
+     0.99,
+     -0.08
+    ],
+    "ea": 1.4,
+    "s": 3.9964,
     "p": [
      [
       0,
@@ -1900,142 +1900,142 @@
       0.1
      ],
      [
-      1.08,
-      5.08,
-      -0.65
+      1.07,
+      5.11,
+      -0.64
      ],
      [
-      2.95,
-      8.39,
-      -1.77
+      2.92,
+      8.48,
+      -1.75
      ],
      [
-      4.97,
-      11.59,
-      -2.98
+      4.91,
+      11.73,
+      -2.94
      ],
      [
-      7.14,
-      14.65,
-      -4.28
+      7.06,
+      14.85,
+      -4.22
      ],
      [
-      9.47,
-      17.54,
-      -5.67
+      9.36,
+      17.81,
+      -5.6
      ],
      [
-      11.97,
-      20.24,
-      -7.17
+      11.84,
+      20.56,
+      -7.09
      ],
      [
-      14.69,
-      22.63,
-      -8.79
+      14.54,
+      23.03,
+      -8.71
      ],
      [
-      17.67,
-      24.54,
-      -10.58
+      17.52,
+      25.01,
+      -10.49
      ],
      [
-      20.89,
-      25.84,
-      -12.51
+      20.74,
+      26.37,
+      -12.42
      ],
      [
-      24.21,
-      26.74,
-      -14.49
+      24.08,
+      27.3,
+      -14.42
      ],
      [
-      27.57,
-      27.36,
-      -16.51
+      27.46,
+      27.95,
+      -16.44
      ],
      [
-      30.96,
-      27.76,
-      -18.54
+      30.87,
+      28.37,
+      -18.48
      ],
      [
-      34.36,
-      27.99,
-      -20.57
+      34.3,
+      28.61,
+      -20.53
      ],
      [
-      37.76,
-      28.07,
-      -22.61
+      37.72,
+      28.69,
+      -22.59
      ],
      [
-      41.17,
-      28.01,
-      -24.65
+      41.15,
+      28.64,
+      -24.64
      ],
      [
-      44.57,
-      27.83,
+      44.58,
+      28.46,
       -26.69
      ],
      [
-      47.97,
-      27.53,
-      -28.72
+      48,
+      28.15,
+      -28.74
      ],
      [
-      51.35,
-      27.1,
-      -30.75
+      51.4,
+      27.71,
+      -30.78
      ],
      [
-      54.73,
-      26.55,
-      -32.76
+      54.8,
+      27.14,
+      -32.81
      ],
      [
-      58.08,
-      25.84,
-      -34.77
+      58.17,
+      26.41,
+      -34.83
      ],
      [
-      61.39,
-      24.94,
-      -36.76
+      61.5,
+      25.47,
+      -36.82
      ],
      [
-      64.64,
-      23.74,
-      -38.7
+      64.75,
+      24.21,
+      -38.77
      ],
      [
-      67.75,
-      22.12,
-      -40.56
+      67.86,
+      22.51,
+      -40.63
      ],
      [
-      70.73,
-      20.2,
-      -42.35
+      70.83,
+      20.51,
+      -42.4
      ],
      [
-      73.59,
-      18.05,
-      -44.06
+      73.67,
+      18.27,
+      -44.1
      ],
      [
-      76.32,
-      15.68,
-      -45.69
+      76.37,
+      15.8,
+      -45.72
      ],
      [
-      78.9,
-      13.08,
+      78.91,
+      13.12,
       -47.24
      ],
      [
-      80.54,
+      80.53,
       9.73,
       -48.22
      ],
@@ -2052,18 +2052,6 @@
    "b": "u1|A0",
    "flex": {
     "k": "u15|VRx>u1|A0",
-    "ea": 1.4,
-    "s": 4.0982,
-    "la": [
-     -0.1,
-     0.99,
-     0
-    ],
-    "lb": [
-     0.13,
-     0.99,
-     0
-    ],
     "a": [
      -132,
      2.85,
@@ -2084,6 +2072,18 @@
      0.99,
      0
     ],
+    "la": [
+     -0.1,
+     0.99,
+     0
+    ],
+    "lb": [
+     0.13,
+     0.99,
+     0
+    ],
+    "ea": 1.4,
+    "s": 4.0982,
     "p": [
      [
       0,
@@ -2204,6 +2204,6 @@
    }
   }
  ],
- "code": "#include <Adafruit_GFX.h>\n#include <Adafruit_ST7735.h>\n#include <SPI.h>\n\n#define TFT_CS 10\n#define TFT_DC 9\n#define TFT_RST 8\n\nAdafruit_ST7735 pantalla = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);\n\nint serpientepos[] = {65, 70}; // Vector de posición de la serpiente [X, Y]\nint velocidad = 4; // Cantidad de píxeles que se mueve en cada paso\n\nconst int PIN_JOYSTICK_X = A0; // Eje X\nconst int PIN_JOYSTICK_Y = A1; // Eje Y\nbool vivo = false; //Revisa si murio la serpiente (cuando choque se vuelve false)\nint puntuacion = 0;\n\nenum Direccion { ARRIBA, ABAJO, IZQUIERDA, DERECHA };\nDireccion dirActual = ARRIBA; // Dirección inicial\n\nvoid setup() {\n  pantalla.initR(INITR_BLACKTAB);\n  pantalla.fillScreen(ST77XX_WHITE); // Pantalla en blanco\n}\n\nvoid loop() {\n  int valorX = analogRead(PIN_JOYSTICK_X);\n  int valorY = analogRead(PIN_JOYSTICK_Y);\n  \n   pantalla.setCursor(60, 10);\n   pantalla.setTextColor(ST77XX_BLACK, ST77XX_WHITE); // <--- Texto negro, fondo blanco\n   pantalla.println(puntuacion);\n   puntuacion++; //Como no hay manzanas,probamos con puntuacion++\n  \n  if(vivo == false)\n  {\n    borrarSerpiente();\n    serpientepos[0] = 65;\n    serpientepos[1] = 70;\n    \n    pantalla.setCursor(35, 50);\n    pantalla.setTextColor(ST77XX_BLACK, ST77XX_WHITE); // <--- Texto negro, fondo blanco\n    pantalla.println(\"Has muerto\");\n    delay(1000);\n    pantalla.setCursor(35, 50);\n    pantalla.setTextColor(ST77XX_WHITE, ST77XX_WHITE); // <--- Texto blanco, fondo blanco para borrar\n    pantalla.println(\"Has muerto\");\n    vivo = true;\n    \n  }\n\n  // 1. SOLO DETECTAMOS EL CAMBIO DE DIRECCIÓN (Sin mover aún)\n  if (valorX < 200 && dirActual != DERECHA) {\n    dirActual = IZQUIERDA;\n  } \n  else if (valorX > 800 && dirActual != IZQUIERDA) {\n    dirActual = DERECHA;\n  } \n  else if (valorY < 200 && dirActual != ABAJO) {\n    dirActual = ARRIBA;\n  } \n  else if (valorY > 800 && dirActual != ARRIBA) {\n    dirActual = ABAJO;\n  }\n\n  // 2. EJECUTAMOS EL MOVIMIENTO AUTOMÁTICO EN CADA CICLO\n  borrarSerpiente();\n\n  switch (dirActual) {\n    case ARRIBA:    moverArriba();    break;\n    case ABAJO:     moverAbajo();     break;\n    case IZQUIERDA: moverIzquierda(); break;\n    case DERECHA:   moverDerecha();   break;\n  }\n\n  dibujarSerpiente();\n\n  // 3. CONTROL DE VELOCIDAD CONSTANTE\n  delay(150); \n}\n\n// --- FUNCIONES DE MOVIMIENTO (Solo actualizan la posición) ---\nvoid moverArriba() {\n  serpientepos[1] -= velocidad;\n}\n\nvoid moverAbajo() {\n  serpientepos[1] += velocidad;\n}\n\nvoid moverIzquierda() {\n  serpientepos[0] -= velocidad;\n}\n\nvoid moverDerecha() {\n  serpientepos[0] += velocidad;\n}\n\n// --- FUNCIONES DE DIBUJO Y LIMPIEZA ---\nvoid dibujarSerpiente() {\n  int x = serpientepos[0];\n  int y = serpientepos[1];\n\n  // 1. Dibuja el Cuerpo\n  if (dirActual == ARRIBA)    pantalla.fillRect(x - 2, y + 3, 5, 3, ST77XX_GREEN);\n  if (dirActual == ABAJO)     pantalla.fillRect(x - 2, y - 5, 5, 3, ST77XX_GREEN);\n  if (dirActual == IZQUIERDA) pantalla.fillRect(x + 3, y - 2, 3, 5, ST77XX_GREEN);\n  if (dirActual == DERECHA)   pantalla.fillRect(x - 5, y - 2, 3, 5, ST77XX_GREEN);\n\n  // 2. Dibuja Cabeza\n  pantalla.fillCircle(x, y, 3, ST77XX_GREEN);\n\n  // 3. Dibuja Ojos y Lengua según dirección\n  switch (dirActual) {\n    case ARRIBA:\n      pantalla.drawPixel(x - 2, y - 1, ST77XX_BLACK);\n      pantalla.drawPixel(x + 2, y - 1, ST77XX_BLACK);\n      pantalla.drawLine(x, y - 2, x, y - 4, ST77XX_RED);\n      break;\n    case ABAJO:\n      pantalla.drawPixel(x - 2, y + 1, ST77XX_BLACK);\n      pantalla.drawPixel(x + 2, y + 1, ST77XX_BLACK);\n      pantalla.drawLine(x, y + 2, x, y + 4, ST77XX_RED);\n      break;\n    case IZQUIERDA:\n      pantalla.drawPixel(x - 1, y - 2, ST77XX_BLACK);\n      pantalla.drawPixel(x - 1, y + 2, ST77XX_BLACK);\n      pantalla.drawLine(x - 2, y, x - 4, y, ST77XX_RED);\n      break;\n    case DERECHA:\n      pantalla.drawPixel(x + 1, y - 2, ST77XX_BLACK);\n      pantalla.drawPixel(x + 1, y + 2, ST77XX_BLACK);\n      pantalla.drawLine(x + 2, y, x + 4, y, ST77XX_RED);\n      break;\n  }\n}\n\nvoid borrarSerpiente() {\n  pantalla.fillRect(serpientepos[0] - 7, serpientepos[1] - 7, 14, 14, ST77XX_WHITE);\n}\n",
+ "code": "#include <Adafruit_GFX.h>\n#include <Adafruit_ST7735.h>\n#include <SPI.h>\n\n#define TFT_CS 10\n#define TFT_DC 9\n#define TFT_RST 8\n\nAdafruit_ST7735 pantalla = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);\n\n// VARIABLES COMPARTIDAS Y DE CONFIGURACIÓN\nint serpientepos[] = {65, 70}; // La posición de la serpiente [X, Y]\nint velocidad = 4;             // Cantidad de píxeles que se mueve en cada paso\n\n// PINES DEL JOYSTICK\nconst int PIN_JOYSTICK_X = A0; // Eje X para cambiar de nivel e ir Izq/Der\nconst int PIN_JOYSTICK_Y = A1; // Eje Y para arrancar el juego e ir Arriba/Abajo\n\nint nivel = 1;\nbool juegoIniciado = false; // Controla si el juego empezó o está en el menú\nbool vivo = true;\n// DIRECCIONES DE LA SERPIENTE\nenum Direccion { ARRIBA, ABAJO, IZQUIERDA, DERECHA };\nDireccion dirActual = ARRIBA; // Dirección inicial al arrancar la partida\n\nvoid setup() {\n  pantalla.initR(INITR_BLACKTAB);\n  pantalla.fillScreen(ST77XX_WHITE); // Dibujar menú por primera vez\n  mostrarMenuInicial();\n}\n\nvoid loop() {\n  // Leer los valores reales del Joystick (rango 15 a 1015)\n  int valorX = analogRead(PIN_JOYSTICK_X);\n  int valorY = analogRead(PIN_JOYSTICK_Y);\n\nif(vivo == false)\n  {\n    borrarSerpiente();\n    serpientepos[0] = 65;\n    serpientepos[1] = 70;\n    \n    pantalla.setCursor(35, 50);\n    pantalla.setTextColor(ST77XX_BLACK, ST77XX_WHITE); // <--- Texto negro, fondo blanco\n    pantalla.println(\"Has muerto\");\n    delay(1000);\n    pantalla.setCursor(35, 50);\n    pantalla.setTextColor(ST77XX_WHITE, ST77XX_WHITE); // <--- Texto blanco, fondo blanco para borrar\n    pantalla.println(\"Has muerto\");\n    vivo = true;\n    \n  }\n\n  if (!juegoIniciado) {\n    // === MODO SELECCIÓN DE NIVEL ===\n    // Si mueven el joystick hacia adelante/arriba (Eje Y cerca del mínimo)\n    if (valorY < 200) {\n      juegoIniciado = true;\n      dirActual = ARRIBA; // Reiniciar dirección por defecto al arrancar\n      comenzarJuego();    // Inicia la partida y dibuja los obstáculos\n    }\n\n    // Si mueven el joystick a la izquierda y el nivel es mayor a 1\n    if (valorX < 200 && nivel > 1) {\n      nivel--; // Baja un nivel\n      actualizarMenu();\n      delay(300); // Delay anti-rebote indispensable\n    }\n    // Si mueven el joystick a la derecha y el nivel es menor a 3\n    else if (valorX > 850 && nivel < 3) {\n      nivel++; // Sube un nivel\n      actualizarMenu();\n      delay(300); // Delay anti-rebote indispensable\n    }\n    delay(30); // Estabilidad en lecturas de menú\n  } else {\n    // === MODO JUEGO EN MARCHA ===\n    // 1. SOLO DETECTAMOS EL CAMBIO DE DIRECCIÓN (Sin mover aún)\n    if (valorX < 200 && dirActual != DERECHA) {\n      dirActual = IZQUIERDA;\n    } else if (valorX > 800 && dirActual != IZQUIERDA) {\n      dirActual = DERECHA;\n    } else if (valorY < 200 && dirActual != ABAJO) {\n      dirActual = ARRIBA;\n    } else if (valorY > 800 && dirActual != ARRIBA) {\n      dirActual = ABAJO;\n    }\n\n    // 2. EJECUTAMOS EL MOVIMIENTO AUTOMÁTICO EN CADA CICLO\n    borrarSerpiente(); // Borra en la posición actual antes de actualizarla\n\n    switch (dirActual) {\n      case ARRIBA:    moverArriba();    break;\n      case ABAJO:     moverAbajo();     break;\n      case IZQUIERDA: moverIzquierda(); break;\n      case DERECHA:   moverDerecha();   break;\n    }\n\n    dibujarSerpiente(); // Dibuja en la nueva posición\n\n    // 3. CONTROL DE VELOCIDAD CONSTANTE\n    delay(150);\n    borrarSerpiente(); // Borra en la posición actual antes de actualizarla\n  }\n}\n\n// --- FUNCIONES DEL MENÚ ---\nvoid mostrarMenuInicial() {\n  pantalla.setTextColor(ST77XX_BLACK); // Color del texto\n  pantalla.setTextSize(3);             // Tamaño del texto\n  pantalla.setCursor(25, 35);          // Posición en la pantalla (X, Y)\n  pantalla.print(\"Nivel\");\n\n  pantalla.setTextColor(ST77XX_BLACK);\n  pantalla.setTextSize(3);\n  pantalla.setCursor(58, 105);\n  pantalla.print(\"1\");\n  pantalla.setCursor(38, 105);\n  pantalla.print(\"<\");\n  pantalla.setCursor(78, 105);\n  pantalla.print(\">\");\n\n  // Dibujar la serpiente quieta en el menú\n  pantalla.fillCircle(serpientepos[0], serpientepos[1], 3, ST77XX_GREEN); // cabeza\n  pantalla.fillRect(serpientepos[0] - 2, serpientepos[1] + 3, 5, 3, ST77XX_GREEN); // cuerpo\n  pantalla.drawPixel(serpientepos[0] - 2, serpientepos[1] - 1, ST77XX_BLACK); // ojo 1\n  pantalla.drawPixel(serpientepos[0] + 2, serpientepos[1] - 1, ST77XX_BLACK); // ojo 2\n  pantalla.drawLine(serpientepos[0], serpientepos[1] - 2, serpientepos[0], serpientepos[1] - 3, ST77XX_RED); // boca\n}\n\nvoid actualizarMenu() {\n  // Borrar número anterior y limpiar la zona central de la serpiente\n  pantalla.fillRect(58, 105, 18, 22, ST77XX_WHITE);\n  pantalla.fillRect(50, 60, 30, 35, ST77XX_WHITE);\n\n  // Dibujar número actual (1, 2 o 3)\n  pantalla.setTextColor(ST77XX_BLACK);\n  pantalla.setTextSize(3);\n  pantalla.setCursor(58, 105);\n  pantalla.print(nivel);\n\n  // Dibujar la serpiente quieta de fondo de pantalla\n  pantalla.fillCircle(serpientepos[0], serpientepos[1], 3, ST77XX_GREEN);\n  pantalla.fillRect(serpientepos[0] - 2, serpientepos[1] + 3, 5, 3, ST77XX_GREEN);\n  pantalla.drawPixel(serpientepos[0] - 2, serpientepos[1] - 1, ST77XX_BLACK);\n  pantalla.drawPixel(serpientepos[0] + 2, serpientepos[1] - 1, ST77XX_BLACK);\n  pantalla.drawLine(serpientepos[0], serpientepos[1] - 2, serpientepos[0], serpientepos[1] - 3, ST77XX_RED);\n}\n\nvoid comenzarJuego() {\n  pantalla.fillScreen(ST77XX_WHITE); // Limpiamos la pantalla del menú por completo\n\n  // Volver a centrar la serpiente al iniciar la partida\n  serpientepos[0] = 65;\n  serpientepos[1] = 70;\n\n  // Nivel 1: No genera ningún bloque negro (Mapa despejado)\n  // Si eligió el nivel 2, se dibujan los obstáculos en las esquinas y abajo\n  if (nivel == 2) {\n    pantalla.fillRect(0, 0, 30, 30, ST77XX_BLACK);     // Bloque fijo 1 (Arriba Izquierda)\n    pantalla.fillRect(103, 0, 25, 25, ST77XX_BLACK);   // Bloque fijo 2 (Arriba Derecha)\n    pantalla.fillRect(0, 120, 30, 50, ST77XX_BLACK);   // Bloque fijo 3 (Abajo Centro)\n  }\n  // Si eligió el nivel 3, se dibuja un gran obstáculo central (Laberinto/Cruz)\n  else if (nivel == 3) {\n    pantalla.fillRect(50, 0, 90, 15, ST77XX_BLACK);    // Bloque Arriba\n    pantalla.fillRect(54, 130, 80, 35, ST77XX_BLACK);  // Bloque Abajo\n    pantalla.fillRect(10, 60, 23, 75, ST77XX_BLACK);   // Bloque Izquierda\n  }\n\n  // Redibujar la serpiente en su posición de inicio de partida\n  dibujarSerpiente();\n}\n\n// --- FUNCIONES DE MOVIMIENTO ---\nvoid moverArriba()    { serpientepos[1] -= velocidad; }\nvoid moverAbajo()     { serpientepos[1] += velocidad; }\nvoid moverIzquierda() { serpientepos[0] -= velocidad; }\nvoid moverDerecha()   { serpientepos[0] += velocidad; }\n\n// --- FUNCIONES DE DIBUJO Y LIMPIEZA ---\nvoid dibujarSerpiente() {\n  int x = serpientepos[0];\n  int y = serpientepos[1];\n\n  // 1. Dibuja el Cuerpo\n  if (dirActual == ARRIBA)    pantalla.fillRect(x - 2, y + 3, 5, 3, ST77XX_GREEN);\n  if (dirActual == ABAJO)     pantalla.fillRect(x - 2, y - 5, 5, 3, ST77XX_GREEN);\n  if (dirActual == IZQUIERDA) pantalla.fillRect(x + 3, y - 2, 3, 5, ST77XX_GREEN);\n  if (dirActual == DERECHA)   pantalla.fillRect(x - 5, y - 2, 3, 5, ST77XX_GREEN);\n\n  // 2. Dibuja Cabeza\n  pantalla.fillCircle(x, y, 3, ST77XX_GREEN);\n\n  // 3. Dibuja Ojos y Lengua según dirección\n  switch (dirActual) {\n    case ARRIBA:\n      pantalla.drawPixel(x - 2, y - 1, ST77XX_BLACK);\n      pantalla.drawPixel(x + 2, y - 1, ST77XX_BLACK);\n      pantalla.drawLine(x, y - 2, x, y - 4, ST77XX_RED);\n      break;\n    case ABAJO:\n      pantalla.drawPixel(x - 2, y + 1, ST77XX_BLACK);\n      pantalla.drawPixel(x + 2, y + 1, ST77XX_BLACK);\n      pantalla.drawLine(x, y + 2, x, y + 4, ST77XX_RED);\n      break;\n    case IZQUIERDA:\n      pantalla.drawPixel(x - 1, y - 2, ST77XX_BLACK);\n      pantalla.drawPixel(x - 1, y + 2, ST77XX_BLACK);\n      pantalla.drawLine(x - 2, y, x - 4, y, ST77XX_RED);\n      break;\n    case DERECHA:\n      pantalla.drawPixel(x + 1, y - 2, ST77XX_BLACK);\n      pantalla.drawPixel(x + 1, y + 2, ST77XX_BLACK);\n      pantalla.drawLine(x + 2, y, x + 4, y, ST77XX_RED);\n      break;\n  }\n}\n\n// NUEVA FUNCIÓN OPTIMIZADA: Borra usando las dimensiones exactas orientadas a la dirección actual\nvoid borrarSerpiente() {\n  int x = serpientepos[0];\n  int y = serpientepos[1];\n\n  switch (dirActual) {\n    case ARRIBA:\n      // Cubre cabeza, lengua (hacia arriba) y cuerpo (hacia abajo)\n      pantalla.fillRect(x - 4, y -8, 9, 14, ST77XX_WHITE);\n      break;\n    case ABAJO:\n      // Cubre cabeza, lengua (hacia abajo) y cuerpo (hacia arriba)\n      pantalla.fillRect(x - 4, y-5, 9, 14, ST77XX_WHITE);\n      break;\n    case IZQUIERDA:\n      // Cubre cabeza, lengua (hacia la izquierda) y cuerpo (hacia la derecha)\n      pantalla.fillRect(x - 8, y - 4, 14, 9, ST77XX_WHITE);\n      break;\n    case DERECHA:\n      // Cubre cabeza, lengua (hacia la derecha) y cuerpo (hacia la izquierda)\n      pantalla.fillRect(x - 5, y - 4, 14, 9, ST77XX_WHITE);\n      break;\n  }\n}\n",
  "prog": null
 }
