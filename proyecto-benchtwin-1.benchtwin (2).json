@@ -1,7 +1,7 @@
 {
  "format": "benchtwin",
  "version": 1,
- "exportedAt": "2026-11-06T18:20:00.742Z",
+ "exportedAt": "2026-11-13T19:12:34.058Z",
  "name": "Proyecto BenchTwin 1",
  "uidN": 18,
  "parts": [
@@ -28,8 +28,8 @@
   {
    "uid": "u15",
    "type": "joystick-ky023",
-   "x": -132,
-   "z": -25,
+   "x": -13,
+   "z": 39,
    "rot": 0,
    "props": {
     "jx": 0,
@@ -1318,9 +1318,9 @@
    "flex": {
     "k": "u15|+5V>u16|d9",
     "a": [
-     -134.54,
+     -15.54,
      2.85,
-     -2
+     62
     ],
     "b": [
      -84,
@@ -1348,7 +1348,7 @@
      0.05
     ],
     "ea": 1.4,
-    "s": 3.9564,
+    "s": 3.9792,
     "p": [
      [
       0,
@@ -1356,89 +1356,134 @@
       0
      ],
      [
-      -0.19,
-      1.39,
-      -0.06
+      -0.2,
+      1.38,
+      -0.07
      ],
      [
-      1.65,
-      4.84,
-      0.54
+      -3.67,
+      3.18,
+      -0.79
      ],
      [
-      4.48,
-      7.44,
-      1.48
+      -7.26,
+      4.76,
+      -1.45
      ],
      [
-      7.54,
-      9.73,
-      2.48
+      -11.11,
+      5.72,
+      -1.84
      ],
      [
-      10.9,
-      11.49,
-      3.59
+      -12.43,
+      9.04,
+      -3.6
      ],
      [
-      14.57,
-      12.38,
-      4.8
+      -14.6,
+      11.91,
+      -5.29
      ],
      [
-      18.3,
-      12.78,
-      6.03
+      -16.97,
+      14.56,
+      -7.08
      ],
      [
-      22.06,
-      12.89,
-      7.27
+      -19.58,
+      16.91,
+      -8.95
      ],
      [
-      25.82,
-      12.81,
-      8.51
+      -22.38,
+      18.94,
+      -10.91
      ],
      [
-      29.57,
-      12.59,
-      9.74
+      -25.34,
+      20.64,
+      -12.97
      ],
      [
-      33.31,
-      12.25,
-      10.97
+      -28.41,
+      21.98,
+      -15.11
      ],
      [
-      37.05,
-      11.81,
-      12.2
+      -31.56,
+      22.95,
+      -17.33
      ],
      [
-      40.77,
-      11.27,
-      13.43
+      -34.75,
+      23.57,
+      -19.63
      ],
      [
-      44.47,
-      10.55,
-      14.65
+      -37.95,
+      23.81,
+      -21.98
      ],
      [
-      48.15,
-      9.76,
-      15.86
+      -41.13,
+      23.69,
+      -24.38
      ],
      [
-      50.75,
+      -44.25,
+      23.21,
+      -26.8
+     ],
+     [
+      -47.3,
+      22.4,
+      -29.22
+     ],
+     [
+      -50.25,
+      21.27,
+      -31.64
+     ],
+     [
+      -53.1,
+      19.84,
+      -34.02
+     ],
+     [
+      -55.85,
+      18.16,
+      -36.36
+     ],
+     [
+      -58.48,
+      16.25,
+      -38.65
+     ],
+     [
+      -61.02,
+      14.15,
+      -40.88
+     ],
+     [
+      -63.48,
+      11.9,
+      -43.05
+     ],
+     [
+      -65.88,
+      9.54,
+      -45.18
+     ],
+     [
+      -68.25,
       7.13,
-      16.72
+      -47.28
      ],
      [
-      50.54,
+      -68.46,
       5.75,
-      16.65
+      -47.35
      ]
     ]
    }
@@ -1535,9 +1580,9 @@
    "flex": {
     "k": "u15|GND>u16|c12",
     "a": [
-     -137.08,
+     -18.08,
      2.85,
-     -2
+     62
     ],
     "b": [
      -76.38,
@@ -1578,119 +1623,119 @@
       -0.03
      ],
      [
-      0.84,
-      5.26,
-      0.2
+      -2.55,
+      4.59,
+      0.09
      ],
      [
-      2.23,
-      8.99,
-      0.52
+      -5.03,
+      7.71,
+      0.37
      ],
      [
-      3.8,
-      12.65,
-      0.88
+      -7.63,
+      10.71,
+      0.82
      ],
      [
-      5.57,
-      16.2,
-      1.3
+      -9.56,
+      12.66,
+      -2.08
      ],
      [
-      7.6,
+      -11.89,
+      14.7,
+      -4.61
+     ],
+     [
+      -14.34,
+      16.42,
+      -7.25
+     ],
+     [
+      -16.94,
+      17.83,
+      -9.94
+     ],
+     [
+      -19.66,
+      18.9,
+      -12.67
+     ],
+     [
+      -22.46,
       19.61,
-      1.77
+      -15.42
      ],
      [
-      9.99,
-      22.77,
-      2.32
+      -25.32,
+      20,
+      -18.19
      ],
      [
-      12.93,
-      25.39,
-      3.01
+      -28.21,
+      20.07,
+      -20.95
      ],
      [
-      16.48,
-      27.03,
-      3.83
+      -31.11,
+      19.86,
+      -23.69
      ],
      [
-      20.25,
-      28.03,
-      4.71
+      -33.99,
+      19.39,
+      -26.42
      ],
      [
-      24.1,
-      28.6,
-      5.6
+      -36.85,
+      18.68,
+      -29.12
      ],
      [
-      27.98,
-      28.86,
-      6.51
+      -39.68,
+      17.76,
+      -31.79
      ],
      [
-      31.88,
-      28.84,
-      7.41
+      -42.45,
+      16.64,
+      -34.44
      ],
      [
-      35.76,
-      28.55,
-      8.31
+      -45.18,
+      15.35,
+      -37.06
      ],
      [
-      39.61,
-      28,
-      9.21
+      -47.85,
+      13.9,
+      -39.65
      ],
      [
-      43.41,
-      27.11,
-      10.09
+      -50.47,
+      12.33,
+      -42.23
      ],
      [
-      47.07,
-      25.77,
-      10.94
+      -53.05,
+      10.66,
+      -44.78
      ],
      [
-      50.35,
-      23.6,
-      11.7
+      -55.6,
+      8.92,
+      -47.32
      ],
      [
-      53.12,
-      20.8,
-      12.35
-     ],
-     [
-      55.55,
-      17.67,
-      12.91
-     ],
-     [
-      57.7,
-      14.34,
-      13.41
-     ],
-     [
-      59.6,
-      10.86,
-      13.85
-     ],
-     [
-      60.87,
+      -58.13,
       7.14,
-      14.15
+      -49.85
      ],
      [
-      60.7,
+      -58.3,
       5.75,
-      14.11
+      -49.89
      ]
     ]
    }
@@ -1701,9 +1746,9 @@
    "flex": {
     "k": "u15|VRy>u1|A1",
     "a": [
-     -129.46,
+     -10.46,
      2.85,
-     -2
+     62
     ],
     "b": [
      -70.72,
@@ -1731,7 +1776,7 @@
      0
     ],
     "ea": 1.4,
-    "s": 4.0066,
+    "s": 4.0448,
     "p": [
      [
       0,
@@ -1744,109 +1789,134 @@
       0
      ],
      [
-      0.88,
-      5.26,
-      0
+      -3.38,
+      3.83,
+      0.17
      ],
      [
-      2.35,
-      8.99,
-      0
+      -6.63,
+      6.23,
+      0.37
      ],
      [
-      4.02,
-      12.63,
-      0.01
+      -9.93,
+      8.55,
+      0.62
      ],
      [
-      5.93,
-      16.15,
-      0.01
+      -13.32,
+      10.75,
+      0.6
      ],
      [
-      8.15,
-      19.49,
-      0.01
+      -16.15,
+      12.37,
+      -1.79
      ],
      [
-      10.82,
-      22.47,
-      0.02
+      -17.58,
+      14.5,
+      -4.92
      ],
      [
-      14.2,
-      24.64,
-      0.02
+      -19.31,
+      16.45,
+      -8.01
      ],
      [
-      18.01,
-      25.85,
-      0.03
+      -21.19,
+      18.2,
+      -11.14
      ],
      [
-      21.96,
-      26.53,
-      0.04
+      -23.2,
+      19.71,
+      -14.3
      ],
      [
-      25.96,
-      26.83,
-      0.04
+      -25.32,
+      20.96,
+      -17.51
      ],
      [
-      29.97,
-      26.83,
-      0.05
+      -27.53,
+      21.93,
+      -20.76
      ],
      [
-      33.96,
-      26.58,
-      0.06
+      -29.81,
+      22.61,
+      -24.03
      ],
      [
-      37.94,
-      26.06,
-      0.06
+      -32.14,
+      23,
+      -27.32
      ],
      [
-      41.86,
-      25.25,
-      0.07
+      -34.5,
+      23.09,
+      -30.6
      ],
      [
-      45.68,
-      24.04,
-      0.08
+      -36.88,
+      22.9,
+      -33.87
      ],
      [
-      49.17,
-      22.07,
-      0.08
+      -39.26,
+      22.44,
+      -37.1
      ],
      [
-      52.23,
-      19.48,
-      0.09
+      -41.65,
+      21.73,
+      -40.29
      ],
      [
-      54.95,
-      16.54,
-      0.09
+      -44.02,
+      20.8,
+      -43.43
      ],
      [
-      57.38,
-      13.35,
-      0.1
+      -46.38,
+      19.66,
+      -46.51
      ],
      [
-      58.93,
+      -48.71,
+      18.33,
+      -49.53
+     ],
+     [
+      -51.02,
+      16.83,
+      -52.5
+     ],
+     [
+      -53.31,
+      15.2,
+      -55.41
+     ],
+     [
+      -55.57,
+      13.45,
+      -58.27
+     ],
+     [
+      -57.82,
+      11.62,
+      -61.09
+     ],
+     [
+      -60.06,
       9.74,
-      0.1
+      -63.9
      ],
      [
-      58.74,
+      -60.26,
       8.35,
-      0.1
+      -63.9
      ]
     ]
    }
@@ -1857,9 +1927,9 @@
    "flex": {
     "k": "u15|SW>u1|D2",
     "a": [
-     -126.92,
+     -7.92,
      2.85,
-     -2
+     62
     ],
     "b": [
      -46.58,
@@ -1887,7 +1957,7 @@
      -0.08
     ],
     "ea": 1.4,
-    "s": 3.9964,
+    "s": 3.9776,
     "p": [
      [
       0,
@@ -1900,151 +1970,182 @@
       0.1
      ],
      [
-      1.07,
-      5.11,
-      -0.64
+      -0.9,
+      5.3,
+      0.1
      ],
      [
-      2.92,
-      8.48,
-      -1.75
+      -1.63,
+      9.21,
+      0.09
      ],
      [
-      4.91,
-      11.73,
-      -2.94
-     ],
-     [
-      7.06,
-      14.85,
-      -4.22
-     ],
-     [
-      9.36,
-      17.81,
-      -5.6
-     ],
-     [
-      11.84,
-      20.56,
-      -7.09
-     ],
-     [
-      14.54,
-      23.03,
-      -8.71
-     ],
-     [
-      17.52,
-      25.01,
-      -10.49
-     ],
-     [
-      20.74,
-      26.37,
-      -12.42
-     ],
-     [
-      24.08,
-      27.3,
-      -14.42
-     ],
-     [
-      27.46,
-      27.95,
-      -16.44
-     ],
-     [
-      30.87,
-      28.37,
-      -18.48
-     ],
-     [
-      34.3,
-      28.61,
-      -20.53
-     ],
-     [
-      37.72,
-      28.69,
-      -22.59
-     ],
-     [
-      41.15,
-      28.64,
-      -24.64
-     ],
-     [
-      44.58,
-      28.46,
-      -26.69
-     ],
-     [
-      48,
-      28.15,
-      -28.74
-     ],
-     [
-      51.4,
-      27.71,
-      -30.78
-     ],
-     [
-      54.8,
-      27.14,
-      -32.81
-     ],
-     [
-      58.17,
-      26.41,
-      -34.83
-     ],
-     [
-      61.5,
-      25.47,
-      -36.82
-     ],
-     [
-      64.75,
-      24.21,
-      -38.77
-     ],
-     [
-      67.86,
-      22.51,
-      -40.63
-     ],
-     [
-      70.83,
-      20.51,
-      -42.4
-     ],
-     [
-      73.67,
-      18.27,
-      -44.1
-     ],
-     [
-      76.37,
-      15.8,
-      -45.72
-     ],
-     [
-      78.91,
+      -2.35,
       13.12,
-      -47.24
+      0.09
      ],
      [
-      80.53,
+      -3.06,
+      16.96,
+      -0.66
+     ],
+     [
+      -3.66,
+      20.25,
+      -2.82
+     ],
+     [
+      -4.68,
+      21.31,
+      -6.51
+     ],
+     [
+      -5.73,
+      21.63,
+      -10.33
+     ],
+     [
+      -6.79,
+      21.94,
+      -14.15
+     ],
+     [
+      -7.85,
+      22.23,
+      -17.98
+     ],
+     [
+      -8.93,
+      22.48,
+      -21.8
+     ],
+     [
+      -10.02,
+      22.69,
+      -25.62
+     ],
+     [
+      -11.12,
+      22.86,
+      -29.44
+     ],
+     [
+      -12.24,
+      22.96,
+      -33.25
+     ],
+     [
+      -13.37,
+      23,
+      -37.06
+     ],
+     [
+      -14.52,
+      22.96,
+      -40.87
+     ],
+     [
+      -15.68,
+      22.86,
+      -44.68
+     ],
+     [
+      -16.86,
+      22.68,
+      -48.47
+     ],
+     [
+      -18.04,
+      22.42,
+      -52.26
+     ],
+     [
+      -19.24,
+      22.08,
+      -56.03
+     ],
+     [
+      -20.46,
+      21.66,
+      -59.8
+     ],
+     [
+      -21.68,
+      21.17,
+      -63.55
+     ],
+     [
+      -22.91,
+      20.61,
+      -67.3
+     ],
+     [
+      -24.14,
+      19.98,
+      -71.02
+     ],
+     [
+      -25.39,
+      19.28,
+      -74.74
+     ],
+     [
+      -26.64,
+      18.53,
+      -78.44
+     ],
+     [
+      -27.9,
+      17.72,
+      -82.12
+     ],
+     [
+      -29.16,
+      16.87,
+      -85.79
+     ],
+     [
+      -30.43,
+      15.97,
+      -89.46
+     ],
+     [
+      -31.7,
+      15.04,
+      -93.11
+     ],
+     [
+      -32.98,
+      14.07,
+      -96.75
+     ],
+     [
+      -34.26,
+      13.08,
+      -100.38
+     ],
+     [
+      -35.55,
+      12.07,
+      -104.01
+     ],
+     [
+      -36.83,
+      11.04,
+      -107.63
+     ],
+     [
+      -38.46,
       9.73,
-      -48.22
+      -112.21
      ],
      [
-      80.34,
+      -38.66,
       8.35,
-      -48.1
+      -112.1
      ]
-    ]
+    ],
+    "loose": 1
    }
   },
   {
@@ -2053,9 +2154,9 @@
    "flex": {
     "k": "u15|VRx>u1|A0",
     "a": [
-     -132,
+     -13,
      2.85,
-     -2
+     62
     ],
     "b": [
      -73.26,
@@ -2083,7 +2184,7 @@
      0
     ],
     "ea": 1.4,
-    "s": 4.0982,
+    "s": 4.0457,
     "p": [
      [
       0,
@@ -2091,119 +2192,144 @@
       0
      ],
      [
-      -0.15,
+      -0.14,
       1.39,
       0
      ],
      [
-      0.86,
-      5.36,
-      0
+      -3,
+      4.25,
+      0.17
      ],
      [
-      2.29,
-      9.21,
-      0
+      -5.88,
+      7.08,
+      0.38
      ],
      [
-      3.9,
-      12.97,
-      0.01
+      -8.79,
+      9.88,
+      0.61
      ],
      [
-      5.76,
-      16.63,
-      0.01
+      -11.76,
+      12.63,
+      0.53
      ],
      [
-      7.92,
-      20.11,
-      0.01
+      -13.62,
+      14.26,
+      -2.67
      ],
      [
-      10.54,
-      23.26,
-      0.02
+      -15.51,
+      15.94,
+      -5.83
      ],
      [
-      13.9,
-      25.61,
-      0.02
+      -17.55,
+      17.54,
+      -8.94
      ],
      [
-      17.77,
-      26.94,
-      0.03
+      -19.68,
+      19.01,
+      -12.04
      ],
      [
-      21.8,
-      27.69,
-      0.04
+      -21.91,
+      20.31,
+      -15.16
      ],
      [
-      25.89,
-      28.02,
-      0.04
+      -24.21,
+      21.4,
+      -18.3
      ],
      [
-      29.99,
-      28.04,
-      0.05
+      -26.57,
+      22.26,
+      -21.47
      ],
      [
-      34.07,
-      27.77,
-      0.06
+      -28.98,
+      22.86,
+      -24.67
      ],
      [
-      38.14,
-      27.22,
-      0.06
+      -31.43,
+      23.19,
+      -27.88
      ],
      [
-      42.14,
-      26.34,
-      0.07
+      -33.89,
+      23.25,
+      -31.09
      ],
      [
-      46.01,
-      25,
-      0.08
+      -36.36,
+      23.03,
+      -34.28
      ],
      [
-      49.47,
-      22.8,
-      0.08
+      -38.83,
+      22.55,
+      -37.45
      ],
      [
-      52.45,
-      19.99,
-      0.09
+      -41.28,
+      21.83,
+      -40.59
      ],
      [
-      55.09,
-      16.85,
-      0.09
+      -43.72,
+      20.88,
+      -43.67
      ],
      [
-      57.41,
-      13.48,
-      0.1
+      -46.13,
+      19.72,
+      -46.71
      ],
      [
-      58.92,
+      -48.51,
+      18.37,
+      -49.69
+     ],
+     [
+      -50.86,
+      16.86,
+      -52.61
+     ],
+     [
+      -53.19,
+      15.22,
+      -55.49
+     ],
+     [
+      -55.49,
+      13.46,
+      -58.31
+     ],
+     [
+      -57.78,
+      11.63,
+      -61.1
+     ],
+     [
+      -60.08,
       9.74,
-      0.1
+      -63.9
      ],
      [
-      58.74,
+      -60.26,
       8.35,
-      0.1
+      -63.9
      ]
     ]
    }
   }
  ],
- "code": "#include <Adafruit_GFX.h>\n#include <Adafruit_ST7735.h>\n#include <SPI.h>\n\n#define TFT_CS 10\n#define TFT_DC 9\n#define TFT_RST 8\n\nAdafruit_ST7735 pantalla = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);\n\n// VARIABLES COMPARTIDAS Y DE CONFIGURACIÓN\nint serpientepos[] = {65, 70}; // La posición de la serpiente [X, Y]\nint velocidad = 4;             // Cantidad de píxeles que se mueve en cada paso\n\n// VARIABLES DE LAS MANZANAS\nconst int cantidadmanzanas = 3;\n\nint manzanaX[cantidadmanzanas];\nint manzanaY[cantidadmanzanas];\n// PINES DEL JOYSTICK\nconst int PIN_JOYSTICK_X = A0; // Eje X para cambiar de nivel e ir Izq/Der\nconst int PIN_JOYSTICK_Y = A1; // Eje Y para arrancar el juego e ir Arriba/Abajo\n\nint nivel = 1;\nbool juegoIniciado = false; // Controla si el juego empezó o está en el menú\n\n// DIRECCIONES DE LA SERPIENTE\nenum Direccion { ARRIBA, ABAJO, IZQUIERDA, DERECHA };\nDireccion dirActual = ARRIBA; // Dirección inicial al arrancar la partida\n\nvoid setup() {\n  pantalla.initR(INITR_BLACKTAB);\n  pantalla.fillScreen(ST77XX_WHITE); // Dibujar menú por primera vez\n  randomSeed(analogRead(A2));\n  mostrarMenuInicial();\n}\n\nvoid loop() {\n  // Leer los valores reales del Joystick (rango 15 a 1015)\n  int valorX = analogRead(PIN_JOYSTICK_X);\n  int valorY = analogRead(PIN_JOYSTICK_Y);\n\n  if (!juegoIniciado) {\n    // === MODO SELECCIÓN DE NIVEL ===\n    // Si mueven el joystick hacia adelante/arriba (Eje Y cerca del mínimo)\n    if (valorY < 200) {\n      juegoIniciado = true;\n      dirActual = ARRIBA; // Reiniciar dirección por defecto al arrancar\n      comenzarJuego();    // Inicia la partida y dibuja los obstáculos\n    }\n\n    // Si mueven el joystick a la izquierda y el nivel es mayor a 1\n    if (valorX < 200 && nivel > 1) {\n      nivel--; // Baja un nivel\n      actualizarMenu();\n      delay(300); // Delay anti-rebote indispensable\n    }\n    // Si mueven el joystick a la derecha y el nivel es menor a 3\n    else if (valorX > 850 && nivel < 3) {\n      nivel++; // Sube un nivel\n      actualizarMenu();\n      delay(300); // Delay anti-rebote indispensable\n    }\n    delay(30); // Estabilidad en lecturas de menú\n  } else {\n    // === MODO JUEGO EN MARCHA ===\n    // 1. SOLO DETECTAMOS EL CAMBIO DE DIRECCIÓN (Sin mover aún)\n    if (valorX < 200 && dirActual != DERECHA) {\n      dirActual = IZQUIERDA;\n    } else if (valorX > 800 && dirActual != IZQUIERDA) {\n      dirActual = DERECHA;\n    } else if (valorY < 200 && dirActual != ABAJO) {\n      dirActual = ARRIBA;\n    } else if (valorY > 800 && dirActual != ARRIBA) {\n      dirActual = ABAJO;\n    }\n\n    // 2. EJECUTAMOS EL MOVIMIENTO AUTOMÁTICO EN CADA CICLO\n    borrarSerpiente(); // Borra en la posición actual antes de actualizarla\n\n    switch (dirActual) {\n      case ARRIBA:    moverArriba();    break;\n      case ABAJO:     moverAbajo();     break;\n      case IZQUIERDA: moverIzquierda(); break;\n      case DERECHA:   moverDerecha();   break;\n    }\n\n    dibujarSerpiente(); // Dibuja en la nueva posición\n    dibujarManzanas(); // Dibuja en la nueva posición\n\n    // 3. CONTROL DE VELOCIDAD CONSTANTE\n    delay(150);\n    borrarSerpiente(); // Borra en la posición actual antes de actualizarla\n  }\n}\n\n// --- FUNCIONES DEL MENÚ ---\nvoid mostrarMenuInicial() {\n  pantalla.setTextColor(ST77XX_BLACK); // Color del texto\n  pantalla.setTextSize(3);             // Tamaño del texto\n  pantalla.setCursor(25, 35);          // Posición en la pantalla (X, Y)\n  pantalla.print(\"Nivel\");\n\n  pantalla.setTextColor(ST77XX_BLACK);\n  pantalla.setTextSize(3);\n  pantalla.setCursor(58, 105);\n  pantalla.print(\"1\");\n  pantalla.setCursor(38, 105);\n  pantalla.print(\"<\");\n  pantalla.setCursor(78, 105);\n  pantalla.print(\">\");\n\n  // Dibujar la serpiente quieta en el menú\n  pantalla.fillCircle(serpientepos[0], serpientepos[1], 3, ST77XX_GREEN); // cabeza\n  pantalla.fillRect(serpientepos[0] - 2, serpientepos[1] + 3, 5, 3, ST77XX_GREEN); // cuerpo\n  pantalla.drawPixel(serpientepos[0] - 2, serpientepos[1] - 1, ST77XX_BLACK); // ojo 1\n  pantalla.drawPixel(serpientepos[0] + 2, serpientepos[1] - 1, ST77XX_BLACK); // ojo 2\n  pantalla.drawLine(serpientepos[0], serpientepos[1] - 2, serpientepos[0], serpientepos[1] - 3, ST77XX_RED); // boca\n}\n\nvoid actualizarMenu() {\n  // Borrar número anterior y limpiar la zona central de la serpiente\n  pantalla.fillRect(58, 105, 18, 22, ST77XX_WHITE);\n  pantalla.fillRect(50, 60, 30, 35, ST77XX_WHITE);\n\n  // Dibujar número actual (1, 2 o 3)\n  pantalla.setTextColor(ST77XX_BLACK);\n  pantalla.setTextSize(3);\n  pantalla.setCursor(58, 105);\n  pantalla.print(nivel);\n\n  // Dibujar la serpiente quieta de fondo de pantalla\n  pantalla.fillCircle(serpientepos[0], serpientepos[1], 3, ST77XX_GREEN);\n  pantalla.fillRect(serpientepos[0] - 2, serpientepos[1] + 3, 5, 3, ST77XX_GREEN);\n  pantalla.drawPixel(serpientepos[0] - 2, serpientepos[1] - 1, ST77XX_BLACK);\n  pantalla.drawPixel(serpientepos[0] + 2, serpientepos[1] - 1, ST77XX_BLACK);\n  pantalla.drawLine(serpientepos[0], serpientepos[1] - 2, serpientepos[0], serpientepos[1] - 3, ST77XX_RED);\n}\n\nvoid comenzarJuego() {\n  pantalla.fillScreen(ST77XX_WHITE); // Limpiamos la pantalla del menú por completo\n\n  // Volver a centrar la serpiente al iniciar la partida\n  serpientepos[0] = 65;\n  serpientepos[1] = 70;\n\n  // Nivel 1: No genera ningún bloque negro (Mapa despejado)\n  // Si eligió el nivel 2, se dibujan los obstáculos en las esquinas y abajo\n  if (nivel == 2) {\n    pantalla.fillRect(0, 0, 30, 30, ST77XX_BLACK);     // Bloque fijo 1 (Arriba Izquierda)\n    pantalla.fillRect(103, 0, 25, 25, ST77XX_BLACK);   // Bloque fijo 2 (Arriba Derecha)\n    pantalla.fillRect(0, 120, 30, 50, ST77XX_BLACK);   // Bloque fijo 3 (Abajo Centro)\n  }\n  // Si eligió el nivel 3, se dibuja un gran obstáculo central (Laberinto/Cruz)\n  else if (nivel == 3) {\n    pantalla.fillRect(50, 0, 90, 15, ST77XX_BLACK);    // Bloque Arriba\n    pantalla.fillRect(54, 130, 80, 35, ST77XX_BLACK);  // Bloque Abajo\n    pantalla.fillRect(10, 60, 23, 75, ST77XX_BLACK);   // Bloque Izquierda\n  }\n  \n  // Generar las manzanas\n  generarManzanas();\n  \n  // Dibujar las manzanas\n  dibujarManzanas();\n  \n  // Redibujar la serpiente en su posición de inicio de partida\n  dibujarSerpiente();\n}\n\n// --- FUNCIONES DE MOVIMIENTO ---\nvoid moverArriba()    { serpientepos[1] -= velocidad; }\nvoid moverAbajo()     { serpientepos[1] += velocidad; }\nvoid moverIzquierda() { serpientepos[0] -= velocidad; }\nvoid moverDerecha()   { serpientepos[0] += velocidad; }\n\n// --- FUNCIONES DE DIBUJO Y LIMPIEZA ---\nvoid dibujarSerpiente() {\n  int x = serpientepos[0];\n  int y = serpientepos[1];\n\n  // 1. Dibuja el Cuerpo\n  if (dirActual == ARRIBA)    pantalla.fillRect(x - 2, y + 3, 5, 3, ST77XX_GREEN);\n  if (dirActual == ABAJO)     pantalla.fillRect(x - 2, y - 5, 5, 3, ST77XX_GREEN);\n  if (dirActual == IZQUIERDA) pantalla.fillRect(x + 3, y - 2, 3, 5, ST77XX_GREEN);\n  if (dirActual == DERECHA)   pantalla.fillRect(x - 5, y - 2, 3, 5, ST77XX_GREEN);\n\n  // 2. Dibuja Cabeza\n  pantalla.fillCircle(x, y, 3, ST77XX_GREEN);\n\n  // 3. Dibuja Ojos y Lengua según dirección\n  switch (dirActual) {\n    case ARRIBA:\n      pantalla.drawPixel(x - 2, y - 1, ST77XX_BLACK);\n      pantalla.drawPixel(x + 2, y - 1, ST77XX_BLACK);\n      pantalla.drawLine(x, y - 2, x, y - 4, ST77XX_RED);\n      break;\n    case ABAJO:\n      pantalla.drawPixel(x - 2, y + 1, ST77XX_BLACK);\n      pantalla.drawPixel(x + 2, y + 1, ST77XX_BLACK);\n      pantalla.drawLine(x, y + 2, x, y + 4, ST77XX_RED);\n      break;\n    case IZQUIERDA:\n      pantalla.drawPixel(x - 1, y - 2, ST77XX_BLACK);\n      pantalla.drawPixel(x - 1, y + 2, ST77XX_BLACK);\n      pantalla.drawLine(x - 2, y, x - 4, y, ST77XX_RED);\n      break;\n    case DERECHA:\n      pantalla.drawPixel(x + 1, y - 2, ST77XX_BLACK);\n      pantalla.drawPixel(x + 1, y + 2, ST77XX_BLACK);\n      pantalla.drawLine(x + 2, y, x + 4, y, ST77XX_RED);\n      break;\n  }\n}\n\n// NUEVA FUNCIÓN OPTIMIZADA: Borra usando las dimensiones exactas orientadas a la dirección actual\nvoid borrarSerpiente() {\n  int x = serpientepos[0];\n  int y = serpientepos[1];\n\n  switch (dirActual) {\n    case ARRIBA:\n      // Cubre cabeza, lengua (hacia arriba) y cuerpo (hacia abajo)\n      pantalla.fillRect(x - 4, y -8, 9, 14, ST77XX_WHITE);\n      break;\n    case ABAJO:\n      // Cubre cabeza, lengua (hacia abajo) y cuerpo (hacia arriba)\n      pantalla.fillRect(x - 4, y-5, 9, 14, ST77XX_WHITE);\n      break;\n    case IZQUIERDA:\n      // Cubre cabeza, lengua (hacia la izquierda) y cuerpo (hacia la derecha)\n      pantalla.fillRect(x - 8, y - 4, 14, 9, ST77XX_WHITE);\n      break;\n    case DERECHA:\n      // Cubre cabeza, lengua (hacia la derecha) y cuerpo (hacia la izquierda)\n      pantalla.fillRect(x - 5, y - 4, 14, 9, ST77XX_WHITE);\n      break;\n  }\n}\n\nvoid generarManzanas() {\n\n  for (int i = 0; i < cantidadmanzanas; i++) {\n\n    bool posicionValida = false;\n\n    while (!posicionValida) {\n\n      manzanaX[i] = random(5, 123);\n      manzanaY[i] = random(5, 155);\n\n      posicionValida = true;\n\n      // Evitar que aparezcan encima de la serpiente\n      if (abs(manzanaX[i] - serpientepos[0]) < 12 &&\n          abs(manzanaY[i] - serpientepos[1]) < 12) {\n        posicionValida = false;\n      }\n\n      // Obstáculos del nivel 2\n      if (nivel == 2) {\n\n        if (manzanaX[i] < 35 && manzanaY[i] < 35)\n          posicionValida = false;\n\n        if (manzanaX[i] > 98 && manzanaY[i] < 30)\n          posicionValida = false;\n\n        if (manzanaX[i] < 35 && manzanaY[i] > 115)\n          posicionValida = false;\n      }\n\n      // Obstáculos del nivel 3\n      if (nivel == 3) {\n\n        if (manzanaX[i] > 45 && manzanaY[i] < 20)\n          posicionValida = false;\n\n        if (manzanaX[i] > 49 && manzanaY[i] > 125)\n          posicionValida = false;\n\n        if (manzanaX[i] < 38 &&\n            manzanaY[i] > 55 && manzanaY[i] < 140)\n          posicionValida = false;\n      }\n\n      // Evitar que dos manzanas aparezcan juntas\n      for (int j = 0; j < i; j++) {\n\n        if (abs(manzanaX[i] - manzanaX[j]) < 12 &&\n            abs(manzanaY[i] - manzanaY[j]) < 12) {\n          posicionValida = false;\n        }\n      }\n    }\n  }\n}\n\nvoid dibujarManzanas() {\n\n  for (int i = 0; i < cantidadmanzanas; i++) {\n\n    // Cuerpo rojo de la manzana\n    pantalla.fillCircle(manzanaX[i], manzanaY[i], 4, ST77XX_RED);\n\n    // Parte superior de la manzana\n    pantalla.fillCircle(manzanaX[i] - 2, manzanaY[i] - 2, 2, ST77XX_RED);\n\n    // Tallo verde\n    pantalla.drawLine(\n      manzanaX[i], manzanaY[i] - 4,\n      manzanaX[i] + 1, manzanaY[i] - 6,\n      ST77XX_GREEN\n    );\n  }\n}\n\n",
+ "code": "#include <Adafruit_GFX.h>\n#include <Adafruit_ST7735.h>\n#include <SPI.h>\n\n#define TFT_CS 10\n#define TFT_DC 9\n#define TFT_RST 8\n\nAdafruit_ST7735 pantalla = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);\n\n// DIMENSIONES DE LA PANTALLA ST7735\nconst int ANCHO_PANTALLA = 128;\nconst int ALTO_PANTALLA = 160;\n\n// VARIABLES DE LA SERPIENTE ARTICULADA\nconst int MAX_LARGO = 60;      // Largo máximo de segmentos\nint cuerpoX[MAX_LARGO];        // Posiciones X de cada parte del cuerpo\nint cuerpoY[MAX_LARGO];        // Posiciones Y de cada parte del cuerpo\nint largoActual = 3;           // Cantidad de segmentos (empieza con 3)\nint velocidad = 5;             // Distancia entre segmentos (5px evita huecos)\n\n// VARIABLES DE LAS MANZANAS\nconst int cantidadmanzanas = 3;\nint manzanaX[cantidadmanzanas];\nint manzanaY[cantidadmanzanas];\n\n// PINES DEL JOYSTICK\nconst int PIN_JOYSTICK_X = A0; \nconst int PIN_JOYSTICK_Y = A1; \n\nint nivel = 1;\nbool juegoIniciado = false; \nint puntuacion = 0;\n\n// DIRECCIONES DE LA SERPIENTE\nenum Direccion { ARRIBA, ABAJO, IZQUIERDA, DERECHA };\nDireccion dirActual = ARRIBA;\n\nvoid setup() {\n  pantalla.initR(INITR_BLACKTAB);\n  pantalla.fillScreen(ST77XX_WHITE);\n  randomSeed(analogRead(A2));\n  mostrarMenuInicial();\n}\n\nvoid loop() {\n  int valorX = analogRead(PIN_JOYSTICK_X);\n  int valorY = analogRead(PIN_JOYSTICK_Y);\n\n  if (!juegoIniciado) {\n    // === MODO SELECCIÓN DE NIVEL ===\n    if (valorY < 200) {\n      juegoIniciado = true;\n      dirActual = ARRIBA; \n      largoActual = 3;\n      puntuacion = 0;     \n      comenzarJuego();    \n    }\n\n    if (valorX < 200 && nivel > 1) {\n      nivel--; \n      actualizarMenu();\n      delay(300); \n    }\n    else if (valorX > 850 && nivel < 3) {\n      nivel++; \n      actualizarMenu();\n      delay(300); \n    }\n    delay(30); \n  } \n  else {\n    // === MODO JUEGO EN MARCHA ===\n    \n    // Mostrar puntuación en pantalla\n    pantalla.setCursor(5, 5);\n    pantalla.setTextColor(ST77XX_BLACK, ST77XX_WHITE);\n    pantalla.setTextSize(1);\n    pantalla.print(\"Score: \");\n    pantalla.print(puntuacion);\n    puntuacion++; \n\n    // 1. DETECTAMOS EL CAMBIO DE DIRECCIÓN\n    if (valorX < 200 && dirActual != DERECHA) {\n      dirActual = IZQUIERDA;\n    } else if (valorX > 800 && dirActual != IZQUIERDA) {\n      dirActual = DERECHA;\n    } else if (valorY < 200 && dirActual != ABAJO) {\n      dirActual = ARRIBA;\n    } else if (valorY > 800 && dirActual != ARRIBA) {\n      dirActual = ABAJO;\n    }\n\n    // 2. BORRAMOS SOLO LA PUNTA DE LA COLA Y LA LENGUA ANTERIOR\n    borrarCola();\n\n    // 3. DESPLAZAMOS EL CUERPO Y MOVEMOS LA CABEZA\n    moverSerpiente();\n\n    // 4. REVISAR SI CHOCÓ BORDES, OBSTÁCULOS O CONSIGO MISMA\n    if (verificarMuerte()) {\n      pantalla.fillScreen(ST77XX_WHITE);\n      pantalla.setCursor(20, 50);\n      pantalla.setTextColor(ST77XX_BLACK, ST77XX_WHITE);\n      pantalla.setTextSize(2);\n      pantalla.println(\"MORISTE\");\n      pantalla.setCursor(25, 70);\n      pantalla.println(\"Puntos:\");\n      pantalla.setCursor(60, 100);\n      pantalla.println(puntuacion);\n      delay(3000);\n      pantalla.fillScreen(ST77XX_WHITE);\n      juegoIniciado = false;\n      mostrarMenuInicial();\n      return; \n    }\n\n    // 5. DIBUJAR SERPIENTE Y VERIFICAR MANZANAS\n    dibujarSerpiente(); \n    comerManzana();\n    dibujarManzanas();\n\n    // 6. CONTROL DE VELOCIDAD CONSTANTE\n    delay(150);\n  }\n}\n\n// --- MOVIMIENTO ARTICULADO ---\nvoid moverSerpiente() {\n  // Cada segmento toma la posición del segmento anterior (de atrás hacia adelante)\n  for (int i = largoActual - 1; i > 0; i--) {\n    cuerpoX[i] = cuerpoX[i - 1];\n    cuerpoY[i] = cuerpoY[i - 1];\n  }\n\n  // La cabeza (índice 0) avanza en la dirección actual\n  switch (dirActual) {\n    case ARRIBA:    cuerpoY[0] -= velocidad; break;\n    case ABAJO:     cuerpoY[0] += velocidad; break;\n    case IZQUIERDA: cuerpoX[0] -= velocidad; break;\n    case DERECHA:   cuerpoX[0] += velocidad; break;\n  }\n}\n\n// --- DIBUJO Y LIMPIEZA ---\nvoid borrarCola() {\n  // 1. Borra el último segmento de la cola\n  int colaX = cuerpoX[largoActual - 1];\n  int colaY = cuerpoY[largoActual - 1];\n  pantalla.fillCircle(colaX, colaY, 3, ST77XX_WHITE);\n\n  // 2. Borra la lengua anterior de la cabeza (pintando de blanco en las 4 posibles direcciones)\n  int cabX = cuerpoX[0];\n  int cabY = cuerpoY[0];\n  pantalla.drawLine(cabX, cabY - 4, cabX, cabY - 5, ST77XX_WHITE); // Arriba\n  pantalla.drawLine(cabX, cabY + 4, cabX, cabY + 5, ST77XX_WHITE); // Abajo\n  pantalla.drawLine(cabX - 4, cabY, cabX - 5, cabY, ST77XX_WHITE); // Izquierda\n  pantalla.drawLine(cabX + 4, cabY, cabX + 5, cabY, ST77XX_WHITE); // Derecha\n}\n\nvoid dibujarSerpiente() {\n  // 1. Dibuja todo el cuerpo (desde el segmento 1 hasta el final)\n  for (int i = 1; i < largoActual; i++) {\n    pantalla.fillCircle(cuerpoX[i], cuerpoY[i], 3, ST77XX_GREEN);\n  }\n\n  // 2. Dibuja la cabeza encima (índice 0) para borrar los ojos anteriores\n  int x = cuerpoX[0];\n  int y = cuerpoY[0];\n  pantalla.fillCircle(x, y, 3, ST77XX_GREEN);\n\n  // 3. Dibuja ojos y lengua roja según la dirección\n  switch (dirActual) {\n    case ARRIBA:\n      pantalla.drawPixel(x - 2, y - 1, ST77XX_BLACK);\n      pantalla.drawPixel(x + 2, y - 1, ST77XX_BLACK);\n      pantalla.drawLine(x, y - 3, x, y - 5, ST77XX_RED);\n      break;\n    case ABAJO:\n      pantalla.drawPixel(x - 2, y + 1, ST77XX_BLACK);\n      pantalla.drawPixel(x + 2, y + 1, ST77XX_BLACK);\n      pantalla.drawLine(x, y + 3, x, y + 5, ST77XX_RED);\n      break;\n    case IZQUIERDA:\n      pantalla.drawPixel(x - 1, y - 2, ST77XX_BLACK);\n      pantalla.drawPixel(x - 1, y + 2, ST77XX_BLACK);\n      pantalla.drawLine(x - 3, y, x - 5, y, ST77XX_RED);\n      break;\n    case DERECHA:\n      pantalla.drawPixel(x + 1, y - 2, ST77XX_BLACK);\n      pantalla.drawPixel(x + 1, y + 2, ST77XX_BLACK);\n      pantalla.drawLine(x + 3, y, x + 5, y, ST77XX_RED);\n      break;\n  }\n}\n\n// --- FUNCIÓN DE VERIFICACIÓN DE MUERTE ---\nbool verificarMuerte() {\n  int x = cuerpoX[0];\n  int y = cuerpoY[0];\n\n  // 1. Verificar colisión con los bordes físicos de la pantalla\n  if (x < 3 || x > (ANCHO_PANTALLA - 3) || y < 3 || y > (ALTO_PANTALLA - 3)) {\n    return true; \n  }\n\n  // 2. Verificar colisión con los obstáculos según el nivel actual\n  if (nivel == 2) {\n    if (x >= 0 && x <= 32 && y >= 0 && y <= 32) return true;\n    if (x >= 105 && x <= 130 && y >= 0 && y <= 27) return true;\n    if (x >= 51 && x <= 81 && y >= 122 && y <= 162) return true;\n  }\n  else if (nivel == 3) {\n    if (x >= 38 && x <= 90 && y >= 0 && y <= 15) return true;\n    if (x >= 34 && x <= 94 && y >= 130 && y <= 160) return true;\n    if (x >= 0 && x <= 23 && y >= 60 && y <= 100) return true;\n  }\n\n  // 3. Verificar colisión consigo misma (empieza desde i = 3 para no chocar con el cuello al doblar)\n  for (int i = 3; i < largoActual; i++) {\n    if (abs(x - cuerpoX[i]) < 4 && abs(y - cuerpoY[i]) < 4) {\n      return true;\n    }\n  }\n\n  return false;\n}\n\n// --- FUNCIONES MENÚ ---\nvoid mostrarMenuInicial() {\n  pantalla.setTextColor(ST77XX_BLACK); \n  pantalla.setTextSize(3);             \n  pantalla.setCursor(25, 35);          \n  pantalla.print(\"Nivel\");\n\n  pantalla.setTextColor(ST77XX_BLACK);\n  pantalla.setTextSize(3);\n  pantalla.setCursor(58, 105);\n  pantalla.print(nivel);\n  pantalla.setCursor(38, 105);\n  pantalla.print(\"<\");\n  pantalla.setCursor(78, 105);\n  pantalla.print(\">\");\n\n  // Dibujar la serpiente quieta en el menú\n  pantalla.fillCircle(65, 75, 3, ST77XX_GREEN); \n  pantalla.fillRect(63, 78, 5, 3, ST77XX_GREEN); \n  pantalla.drawPixel(63, 74, ST77XX_BLACK); \n  pantalla.drawPixel(67, 74, ST77XX_BLACK); \n  pantalla.drawLine(65, 73, 65, 71, ST77XX_RED); \n}\n\nvoid actualizarMenu() {\n  pantalla.fillRect(58, 105, 18, 22, ST77XX_WHITE);\n  pantalla.fillRect(50, 60, 30, 35, ST77XX_WHITE);\n\n  pantalla.setTextColor(ST77XX_BLACK);\n  pantalla.setTextSize(3);\n  pantalla.setCursor(58, 105);\n  pantalla.print(nivel);\n\n  pantalla.fillCircle(65, 75, 3, ST77XX_GREEN);\n  pantalla.fillRect(63, 78, 5, 3, ST77XX_GREEN);\n  pantalla.drawPixel(63, 74, ST77XX_BLACK);\n  pantalla.drawPixel(67, 74, ST77XX_BLACK);\n  pantalla.drawLine(65, 73, 65, 71, ST77XX_RED);\n}\n\nvoid comenzarJuego() {\n  pantalla.fillScreen(ST77XX_WHITE); \n\n  // Inicializar los segmentos iniciales en fila vertical hacia abajo\n  for (int i = 0; i < largoActual; i++) {\n    cuerpoX[i] = 65;\n    cuerpoY[i] = 70 + (i * velocidad);\n  }\n\n  if (nivel == 2) {\n    pantalla.fillRect(0, 0, 30, 30, ST77XX_BLACK);     \n    pantalla.fillRect(103, 0, 25, 25, ST77XX_BLACK);   \n    pantalla.fillRect(49, 120, 30, 40, ST77XX_BLACK);   \n  }\n  else if (nivel == 3) {\n    pantalla.fillRect(38, 0, 52, 15, ST77XX_BLACK);    \n    pantalla.fillRect(34, 130, 60, 30, ST77XX_BLACK);  \n    pantalla.fillRect(0, 60, 23, 40, ST77XX_BLACK);   \n  }\n\n  for (int i = 0; i < cantidadmanzanas; i++) {\n    generarManzanas(i);\n  }\n  \n  dibujarManzanas();\n  dibujarSerpiente();\n}\n\n// --- FUNCIONES DE MANZANAS ---\nvoid generarManzanas(int i) {\n  bool posicionValida = false;\n\n  while (!posicionValida) {\n    manzanaX[i] = random(8, 120);\n    manzanaY[i] = random(18, 152);\n\n    posicionValida = true;\n\n    // 1. Evitar que aparezca encima de la cabeza o el cuerpo\n    for (int k = 0; k < largoActual; k++) {\n      if (abs(manzanaX[i] - cuerpoX[k]) < 10 &&\n          abs(manzanaY[i] - cuerpoY[k]) < 10) {\n        posicionValida = false;\n      }\n    }\n\n    // 2. Evitar que aparezca encima de otra manzana\n    for (int j = 0; j < cantidadmanzanas; j++) {\n      if (j != i &&\n          abs(manzanaX[i] - manzanaX[j]) < 12 &&\n          abs(manzanaY[i] - manzanaY[j]) < 12) {\n        posicionValida = false;\n      }\n    }\n\n    // 3. Obstáculos del nivel 2\n    if (nivel == 2) {\n      if (manzanaX[i] < 36 && manzanaY[i] < 36) posicionValida = false;\n      if (manzanaX[i] > 97 && manzanaY[i] < 31) posicionValida = false;\n      if (manzanaX[i] > 43 && manzanaX[i] < 85 && manzanaY[i] > 114) posicionValida = false;\n    }\n\n    // 4. Obstáculos del nivel 3\n    if (nivel == 3) {\n      if (manzanaX[i] > 32 && manzanaX[i] < 96 && manzanaY[i] < 21) posicionValida = false;\nif (manzanaX[i] > 28 && manzanaX[i] < 100 && manzanaY[i] > 124) posicionValida = false;\nif (manzanaX[i] < 29 && manzanaY[i] > 54 && manzanaY[i] < 106) posicionValida = false;\n}\n}\n}\nvoid dibujarManzanas() {\nfor (int i = 0; i < cantidadmanzanas; i++) {\npantalla.fillCircle(manzanaX[i], manzanaY[i], 4, ST77XX_RED);\npantalla.fillCircle(manzanaX[i] - 2, manzanaY[i] - 2, 2, ST77XX_RED);\npantalla.drawLine(\nmanzanaX[i], manzanaY[i] - 4,\nmanzanaX[i] + 1, manzanaY[i] - 6,\nST77XX_GREEN\n);\n}\n}\nvoid comerManzana() {\nfor (int i = 0; i < cantidadmanzanas; i++) {\nif (abs(cuerpoX[0] - manzanaX[i]) < 7 &&\nabs(cuerpoY[0] - manzanaY[i]) < 7) {\n// Se borra la manzana\npantalla.fillCircle(manzanaX[i], manzanaY[i], 6, ST77XX_WHITE);\n// Si no llegó al límite máximo, agrega un segmento nuevo en la cola\nif (largoActual < MAX_LARGO) {\ncuerpoX[largoActual] = cuerpoX[largoActual - 1];\ncuerpoY[largoActual] = cuerpoY[largoActual - 1];\nlargoActual++;\n}\ngenerarManzanas(i);\npuntuacion += 50;\n}\n}\n}\n",
  "prog": null
 }
