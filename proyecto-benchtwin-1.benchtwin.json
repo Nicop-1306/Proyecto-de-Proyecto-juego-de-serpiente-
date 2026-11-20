@@ -1,0 +1,2336 @@
+{
+ "format": "benchtwin",
+ "version": 1,
+ "exportedAt": "2026-11-20T18:19:36.608Z",
+ "name": "Proyecto BenchTwin 1",
+ "uidN": 18,
+ "parts": [
+  {
+   "uid": "u1",
+   "type": "uno",
+   "x": -72,
+   "z": -26,
+   "rot": 0,
+   "props": {
+    "power": "usb"
+   },
+   "label": "Uno 1"
+  },
+  {
+   "uid": "u2",
+   "type": "tft-st7735-18",
+   "x": -12,
+   "z": -11,
+   "rot": 0,
+   "props": {},
+   "label": "DS1"
+  },
+  {
+   "uid": "u15",
+   "type": "joystick-ky023",
+   "x": -13,
+   "z": 39,
+   "rot": 0,
+   "props": {
+    "jx": 0,
+    "jy": 0
+   },
+   "label": "SW1"
+  },
+  {
+   "uid": "u16",
+   "type": "bb-170-red",
+   "x": -84,
+   "z": 21,
+   "rot": 0,
+   "props": {},
+   "label": "BB1"
+  }
+ ],
+ "wires": [
+  {
+   "a": "u1|5V",
+   "b": "u2|VCC",
+   "color": "#e53935",
+   "flex": {
+    "k": "u1|5V>u2|VCC",
+    "a": [
+     -85.96,
+     11.2,
+     -1.9
+    ],
+    "b": [
+     -3.11,
+     8.6,
+     -37.5
+    ],
+    "da": [
+     -0.16,
+     0.99,
+     0.07
+    ],
+    "db": [
+     0.16,
+     0.99,
+     -0.07
+    ],
+    "la": [
+     -0.16,
+     0.99,
+     0.07
+    ],
+    "lb": [
+     0.16,
+     0.99,
+     -0.07
+    ],
+    "ea": 1.4,
+    "s": 3.9513,
+    "p": [
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      -0.22,
+      1.38,
+      0.1
+     ],
+     [
+      2.18,
+      4.34,
+      -0.94
+     ],
+     [
+      5.77,
+      4.95,
+      -2.48
+     ],
+     [
+      9.33,
+      5.73,
+      -4.01
+     ],
+     [
+      12.92,
+      6.31,
+      -5.55
+     ],
+     [
+      16.52,
+      6.8,
+      -7.1
+     ],
+     [
+      20.13,
+      7.24,
+      -8.65
+     ],
+     [
+      23.75,
+      7.58,
+      -10.2
+     ],
+     [
+      27.37,
+      7.85,
+      -11.76
+     ],
+     [
+      30.99,
+      8.06,
+      -13.32
+     ],
+     [
+      34.62,
+      8.22,
+      -14.88
+     ],
+     [
+      38.25,
+      8.34,
+      -16.44
+     ],
+     [
+      41.88,
+      8.4,
+      -17.99
+     ],
+     [
+      45.51,
+      8.41,
+      -19.55
+     ],
+     [
+      49.14,
+      8.35,
+      -21.11
+     ],
+     [
+      52.77,
+      8.23,
+      -22.67
+     ],
+     [
+      56.39,
+      8.02,
+      -24.23
+     ],
+     [
+      60.01,
+      7.7,
+      -25.79
+     ],
+     [
+      63.61,
+      7.22,
+      -27.33
+     ],
+     [
+      67.18,
+      6.5,
+      -28.87
+     ],
+     [
+      70.72,
+      5.58,
+      -30.39
+     ],
+     [
+      74.21,
+      4.5,
+      -31.89
+     ],
+     [
+      77.63,
+      3.19,
+      -33.36
+     ],
+     [
+      81.04,
+      1.83,
+      -34.82
+     ],
+     [
+      83.07,
+      -1.22,
+      -35.69
+     ],
+     [
+      82.85,
+      -2.6,
+      -35.6
+     ]
+    ]
+   }
+  },
+  {
+   "a": "u1|GND",
+   "b": "u2|GND",
+   "flex": {
+    "k": "u1|GND>u2|GND",
+    "a": [
+     -83.42,
+     11.2,
+     -1.9
+    ],
+    "b": [
+     -5.65,
+     8.6,
+     -37.5
+    ],
+    "da": [
+     -0.16,
+     0.99,
+     0.07
+    ],
+    "db": [
+     0.15,
+     0.99,
+     -0.07
+    ],
+    "la": [
+     -0.16,
+     0.99,
+     0.07
+    ],
+    "lb": [
+     0.15,
+     0.99,
+     -0.07
+    ],
+    "ea": 1.4,
+    "s": 3.934,
+    "p": [
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      -0.22,
+      1.38,
+      0.1
+     ],
+     [
+      2.11,
+      4.37,
+      -0.97
+     ],
+     [
+      5.62,
+      5.12,
+      -2.57
+     ],
+     [
+      9.11,
+      5.99,
+      -4.17
+     ],
+     [
+      12.64,
+      6.65,
+      -5.78
+     ],
+     [
+      16.18,
+      7.21,
+      -7.41
+     ],
+     [
+      19.73,
+      7.67,
+      -9.03
+     ],
+     [
+      23.29,
+      8.02,
+      -10.66
+     ],
+     [
+      26.86,
+      8.3,
+      -12.3
+     ],
+     [
+      30.43,
+      8.51,
+      -13.93
+     ],
+     [
+      34.01,
+      8.66,
+      -15.57
+     ],
+     [
+      37.58,
+      8.76,
+      -17.2
+     ],
+     [
+      41.16,
+      8.79,
+      -18.84
+     ],
+     [
+      44.74,
+      8.76,
+      -20.48
+     ],
+     [
+      48.31,
+      8.65,
+      -22.12
+     ],
+     [
+      51.88,
+      8.46,
+      -23.75
+     ],
+     [
+      55.45,
+      8.14,
+      -25.38
+     ],
+     [
+      59,
+      7.68,
+      -27.01
+     ],
+     [
+      62.52,
+      6.94,
+      -28.62
+     ],
+     [
+      65.98,
+      5.95,
+      -30.2
+     ],
+     [
+      69.39,
+      4.78,
+      -31.76
+     ],
+     [
+      72.73,
+      3.36,
+      -33.29
+     ],
+     [
+      76.03,
+      1.85,
+      -34.8
+     ],
+     [
+      77.99,
+      -1.22,
+      -35.7
+     ],
+     [
+      77.77,
+      -2.6,
+      -35.6
+     ]
+    ]
+   }
+  },
+  {
+   "a": "u1|D10",
+   "b": "u2|CS",
+   "color": "#43a047",
+   "flex": {
+    "k": "u1|D10>u2|CS",
+    "a": [
+     -68.17,
+     11.2,
+     -50.1
+    ],
+    "b": [
+     -8.19,
+     8.6,
+     -37.5
+    ],
+    "da": [
+     -0.16,
+     0.99,
+     -0.03
+    ],
+    "db": [
+     0.15,
+     0.99,
+     0.03
+    ],
+    "la": [
+     -0.16,
+     0.99,
+     -0.03
+    ],
+    "lb": [
+     0.15,
+     0.99,
+     0.03
+    ],
+    "ea": 1.4,
+    "s": 3.9526,
+    "p": [
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      -0.22,
+      1.38,
+      -0.05
+     ],
+     [
+      2.17,
+      4.49,
+      0.45
+     ],
+     [
+      5.85,
+      5.7,
+      1.23
+     ],
+     [
+      9.56,
+      6.82,
+      2.01
+     ],
+     [
+      13.34,
+      7.66,
+      2.8
+     ],
+     [
+      17.17,
+      8.22,
+      3.61
+     ],
+     [
+      21.02,
+      8.62,
+      4.41
+     ],
+     [
+      24.87,
+      8.89,
+      5.23
+     ],
+     [
+      28.74,
+      9.04,
+      6.04
+     ],
+     [
+      32.61,
+      9.08,
+      6.85
+     ],
+     [
+      36.48,
+      8.98,
+      7.66
+     ],
+     [
+      40.33,
+      8.71,
+      8.47
+     ],
+     [
+      44.17,
+      8.22,
+      9.28
+     ],
+     [
+      47.94,
+      7.33,
+      10.07
+     ],
+     [
+      51.55,
+      5.89,
+      10.83
+     ],
+     [
+      54.98,
+      4.08,
+      11.55
+     ],
+     [
+      58.28,
+      2.01,
+      12.24
+     ],
+     [
+      60.19,
+      -1.22,
+      12.64
+     ],
+     [
+      59.98,
+      -2.6,
+      12.6
+     ]
+    ]
+   }
+  },
+  {
+   "a": "u1|D8",
+   "b": "u2|RESET",
+   "color": "#f4c20d",
+   "flex": {
+    "k": "u1|D8>u2|RESET",
+    "a": [
+     -63.09,
+     11.2,
+     -50.1
+    ],
+    "b": [
+     -10.73,
+     8.6,
+     -37.5
+    ],
+    "da": [
+     -0.15,
+     0.99,
+     -0.04
+    ],
+    "db": [
+     0.14,
+     0.99,
+     0.03
+    ],
+    "la": [
+     -0.15,
+     0.99,
+     -0.04
+    ],
+    "lb": [
+     0.14,
+     0.99,
+     0.03
+    ],
+    "ea": 1.4,
+    "s": 4.0458,
+    "p": [
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      -0.21,
+      1.38,
+      -0.05
+     ],
+     [
+      2.11,
+      4.65,
+      0.51
+     ],
+     [
+      5.72,
+      6.26,
+      1.38
+     ],
+     [
+      9.42,
+      7.63,
+      2.27
+     ],
+     [
+      13.25,
+      8.54,
+      3.19
+     ],
+     [
+      17.14,
+      9.11,
+      4.13
+     ],
+     [
+      21.06,
+      9.47,
+      5.07
+     ],
+     [
+      24.99,
+      9.67,
+      6.01
+     ],
+     [
+      28.92,
+      9.69,
+      6.96
+     ],
+     [
+      32.85,
+      9.52,
+      7.91
+     ],
+     [
+      36.77,
+      9.11,
+      8.85
+     ],
+     [
+      40.62,
+      8.3,
+      9.78
+     ],
+     [
+      44.25,
+      6.75,
+      10.65
+     ],
+     [
+      47.61,
+      4.64,
+      11.46
+     ],
+     [
+      50.73,
+      2.18,
+      12.21
+     ],
+     [
+      52.56,
+      -1.22,
+      12.65
+     ],
+     [
+      52.36,
+      -2.6,
+      12.6
+     ]
+    ]
+   }
+  },
+  {
+   "a": "u1|D9",
+   "b": "u2|A0",
+   "color": "#1e88e5",
+   "flex": {
+    "k": "u1|D9>u2|A0",
+    "a": [
+     -65.63,
+     11.2,
+     -50.1
+    ],
+    "b": [
+     -13.27,
+     8.6,
+     -37.5
+    ],
+    "da": [
+     -0.15,
+     0.99,
+     -0.04
+    ],
+    "db": [
+     0.15,
+     0.99,
+     0.04
+    ],
+    "la": [
+     -0.15,
+     0.99,
+     -0.04
+    ],
+    "lb": [
+     0.15,
+     0.99,
+     0.04
+    ],
+    "ea": 1.4,
+    "s": 3.9381,
+    "p": [
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      -0.21,
+      1.38,
+      -0.05
+     ],
+     [
+      2.23,
+      4.41,
+      0.54
+     ],
+     [
+      5.96,
+      5.3,
+      1.43
+     ],
+     [
+      9.69,
+      6.2,
+      2.33
+     ],
+     [
+      13.47,
+      6.82,
+      3.24
+     ],
+     [
+      17.28,
+      7.24,
+      4.16
+     ],
+     [
+      21.1,
+      7.53,
+      5.08
+     ],
+     [
+      24.92,
+      7.7,
+      6
+     ],
+     [
+      28.75,
+      7.74,
+      6.92
+     ],
+     [
+      32.58,
+      7.63,
+      7.84
+     ],
+     [
+      36.4,
+      7.33,
+      8.76
+     ],
+     [
+      40.18,
+      6.74,
+      9.67
+     ],
+     [
+      43.84,
+      5.57,
+      10.55
+     ],
+     [
+      47.31,
+      3.91,
+      11.38
+     ],
+     [
+      50.65,
+      1.99,
+      12.19
+     ],
+     [
+      52.57,
+      -1.22,
+      12.65
+     ],
+     [
+      52.36,
+      -2.6,
+      12.6
+     ]
+    ]
+   }
+  },
+  {
+   "a": "u1|D11",
+   "b": "u2|SDA",
+   "color": "#fb8c00",
+   "flex": {
+    "k": "u1|D11>u2|SDA",
+    "a": [
+     -70.71,
+     11.2,
+     -50.1
+    ],
+    "b": [
+     -15.81,
+     8.6,
+     -37.5
+    ],
+    "da": [
+     -0.15,
+     0.99,
+     -0.04
+    ],
+    "db": [
+     0.15,
+     0.99,
+     0.03
+    ],
+    "la": [
+     -0.15,
+     0.99,
+     -0.04
+    ],
+    "lb": [
+     0.15,
+     0.99,
+     0.03
+    ],
+    "ea": 1.4,
+    "s": 4.1291,
+    "p": [
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      -0.22,
+      1.38,
+      -0.05
+     ],
+     [
+      2.36,
+      4.56,
+      0.54
+     ],
+     [
+      6.24,
+      5.66,
+      1.43
+     ],
+     [
+      10.13,
+      6.7,
+      2.33
+     ],
+     [
+      14.1,
+      7.41,
+      3.23
+     ],
+     [
+      18.09,
+      7.87,
+      4.15
+     ],
+     [
+      22.11,
+      8.19,
+      5.07
+     ],
+     [
+      26.13,
+      8.36,
+      6
+     ],
+     [
+      30.15,
+      8.4,
+      6.92
+     ],
+     [
+      34.17,
+      8.28,
+      7.84
+     ],
+     [
+      38.19,
+      7.95,
+      8.76
+     ],
+     [
+      42.16,
+      7.29,
+      9.68
+     ],
+     [
+      45.99,
+      6.02,
+      10.55
+     ],
+     [
+      49.61,
+      4.23,
+      11.39
+     ],
+     [
+      53.08,
+      2.13,
+      12.18
+     ],
+     [
+      55.11,
+      -1.22,
+      12.65
+     ],
+     [
+      54.9,
+      -2.6,
+      12.6
+     ]
+    ]
+   }
+  },
+  {
+   "a": "u2|SCK",
+   "b": "u1|D13",
+   "flex": {
+    "k": "u2|SCK>u1|D13",
+    "a": [
+     -18.35,
+     8.6,
+     -37.5
+    ],
+    "b": [
+     -75.79,
+     11.2,
+     -50.1
+    ],
+    "da": [
+     0.15,
+     0.99,
+     0.03
+    ],
+    "db": [
+     -0.16,
+     0.99,
+     -0.03
+    ],
+    "la": [
+     0.15,
+     0.99,
+     0.03
+    ],
+    "lb": [
+     -0.16,
+     0.99,
+     -0.03
+    ],
+    "ea": 1.4,
+    "s": 4.0512,
+    "p": [
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      0.21,
+      1.38,
+      0.05
+     ],
+     [
+      -1.85,
+      4.84,
+      -0.41
+     ],
+     [
+      -5.23,
+      6.95,
+      -1.15
+     ],
+     [
+      -8.74,
+      8.82,
+      -1.92
+     ],
+     [
+      -12.45,
+      10.23,
+      -2.73
+     ],
+     [
+      -16.34,
+      11.01,
+      -3.58
+     ],
+     [
+      -20.27,
+      11.44,
+      -4.45
+     ],
+     [
+      -24.22,
+      11.63,
+      -5.31
+     ],
+     [
+      -28.18,
+      11.67,
+      -6.18
+     ],
+     [
+      -32.14,
+      11.56,
+      -7.05
+     ],
+     [
+      -36.09,
+      11.32,
+      -7.92
+     ],
+     [
+      -40.03,
+      10.94,
+      -8.78
+     ],
+     [
+      -43.95,
+      10.39,
+      -9.64
+     ],
+     [
+      -47.82,
+      9.55,
+      -10.49
+     ],
+     [
+      -51.61,
+      8.38,
+      -11.32
+     ],
+     [
+      -55.35,
+      7.06,
+      -12.14
+     ],
+     [
+      -57.66,
+      3.98,
+      -12.65
+     ],
+     [
+      -57.44,
+      2.6,
+      -12.6
+     ]
+    ]
+   }
+  },
+  {
+   "a": "u2|LED",
+   "b": "u1|3V3",
+   "flex": {
+    "k": "u2|LED>u1|3V3",
+    "a": [
+     -20.89,
+     8.6,
+     -37.5
+    ],
+    "b": [
+     -88.5,
+     11.2,
+     -1.9
+    ],
+    "da": [
+     0.15,
+     0.99,
+     -0.08
+    ],
+    "db": [
+     -0.15,
+     0.99,
+     0.08
+    ],
+    "la": [
+     0.15,
+     0.99,
+     -0.08
+    ],
+    "lb": [
+     -0.15,
+     0.99,
+     0.08
+    ],
+    "ea": 1.4,
+    "s": 3.9154,
+    "p": [
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      0.2,
+      1.38,
+      -0.11
+     ],
+     [
+      -1.69,
+      4.66,
+      0.89
+     ],
+     [
+      -4.76,
+      6.47,
+      2.51
+     ],
+     [
+      -7.89,
+      8.16,
+      4.15
+     ],
+     [
+      -11.12,
+      9.56,
+      5.86
+     ],
+     [
+      -14.44,
+      10.69,
+      7.6
+     ],
+     [
+      -17.84,
+      11.41,
+      9.4
+     ],
+     [
+      -21.28,
+      11.88,
+      11.21
+     ],
+     [
+      -24.74,
+      12.16,
+      13.03
+     ],
+     [
+      -28.2,
+      12.32,
+      14.85
+     ],
+     [
+      -31.67,
+      12.38,
+      16.67
+     ],
+     [
+      -35.13,
+      12.34,
+      18.5
+     ],
+     [
+      -38.59,
+      12.22,
+      20.32
+     ],
+     [
+      -42.05,
+      12.02,
+      22.14
+     ],
+     [
+      -45.51,
+      11.74,
+      23.96
+     ],
+     [
+      -48.96,
+      11.35,
+      25.78
+     ],
+     [
+      -52.39,
+      10.84,
+      27.59
+     ],
+     [
+      -55.8,
+      10.13,
+      29.38
+     ],
+     [
+      -59.17,
+      9.24,
+      31.16
+     ],
+     [
+      -62.49,
+      8.13,
+      32.91
+     ],
+     [
+      -65.79,
+      6.94,
+      34.64
+     ],
+     [
+      -67.82,
+      3.98,
+      35.71
+     ],
+     [
+      -67.61,
+      2.6,
+      35.6
+     ]
+    ]
+   }
+  },
+  {
+   "a": "u1|5V",
+   "b": "u16|a9",
+   "flex": {
+    "k": "u1|5V>u16|a9",
+    "a": [
+     -85.96,
+     11.2,
+     -1.9
+    ],
+    "b": [
+     -84,
+     8.6,
+     7.03
+    ],
+    "da": [
+     -0.01,
+     1,
+     -0.06
+    ],
+    "db": [
+     0.01,
+     1,
+     0.05
+    ],
+    "la": [
+     -0.01,
+     1,
+     -0.06
+    ],
+    "lb": [
+     0.01,
+     1,
+     0.05
+    ],
+    "ea": 1.4,
+    "s": 3.8287,
+    "p": [
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      -0.02,
+      1.4,
+      -0.09
+     ],
+     [
+      0.14,
+      5.15,
+      0.63
+     ],
+     [
+      0.83,
+      7.22,
+      3.78
+     ],
+     [
+      1.62,
+      6.24,
+      7.39
+     ],
+     [
+      1.88,
+      2.59,
+      8.55
+     ],
+     [
+      1.97,
+      -1.2,
+      9
+     ],
+     [
+      1.96,
+      -2.6,
+      8.93
+     ]
+    ]
+   }
+  },
+  {
+   "a": "u15|+5V",
+   "b": "u16|d9",
+   "flex": {
+    "k": "u15|+5V>u16|d9",
+    "a": [
+     -15.54,
+     2.85,
+     62
+    ],
+    "b": [
+     -84,
+     8.6,
+     14.65
+    ],
+    "da": [
+     -0.14,
+     0.99,
+     -0.05
+    ],
+    "db": [
+     0.15,
+     0.99,
+     0.05
+    ],
+    "la": [
+     -0.14,
+     0.99,
+     -0.05
+    ],
+    "lb": [
+     0.15,
+     0.99,
+     0.05
+    ],
+    "ea": 1.4,
+    "s": 3.9792,
+    "p": [
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      -0.2,
+      1.38,
+      -0.07
+     ],
+     [
+      -3.24,
+      3.78,
+      0.83
+     ],
+     [
+      -6.57,
+      5.76,
+      1.77
+     ],
+     [
+      -9.59,
+      7.95,
+      3.12
+     ],
+     [
+      -13.03,
+      9.95,
+      2.85
+     ],
+     [
+      -16.47,
+      11.91,
+      3.18
+     ],
+     [
+      -18.84,
+      13.25,
+      0.28
+     ],
+     [
+      -21.65,
+      14.79,
+      -2.09
+     ],
+     [
+      -24.25,
+      16.06,
+      -4.83
+     ],
+     [
+      -26.87,
+      17.15,
+      -7.61
+     ],
+     [
+      -29.52,
+      18.02,
+      -10.45
+     ],
+     [
+      -32.21,
+      18.66,
+      -13.31
+     ],
+     [
+      -34.95,
+      19.05,
+      -16.17
+     ],
+     [
+      -37.71,
+      19.2,
+      -19.03
+     ],
+     [
+      -40.51,
+      19.1,
+      -21.86
+     ],
+     [
+      -43.31,
+      18.75,
+      -24.66
+     ],
+     [
+      -46.13,
+      18.15,
+      -27.41
+     ],
+     [
+      -48.94,
+      17.33,
+      -30.1
+     ],
+     [
+      -51.74,
+      16.3,
+      -32.74
+     ],
+     [
+      -54.52,
+      15.09,
+      -35.31
+     ],
+     [
+      -57.3,
+      13.73,
+      -37.82
+     ],
+     [
+      -60.06,
+      12.24,
+      -40.26
+     ],
+     [
+      -62.81,
+      10.63,
+      -42.65
+     ],
+     [
+      -65.54,
+      8.92,
+      -44.98
+     ],
+     [
+      -68.25,
+      7.13,
+      -47.28
+     ],
+     [
+      -68.46,
+      5.75,
+      -47.35
+     ]
+    ]
+   }
+  },
+  {
+   "a": "u1|GND",
+   "b": "u16|a12",
+   "flex": {
+    "k": "u1|GND>u16|a12",
+    "a": [
+     -83.42,
+     11.2,
+     -1.9
+    ],
+    "b": [
+     -76.38,
+     8.6,
+     7.03
+    ],
+    "da": [
+     -0.04,
+     1,
+     -0.05
+    ],
+    "db": [
+     0.03,
+     1,
+     0.04
+    ],
+    "la": [
+     -0.04,
+     1,
+     -0.05
+    ],
+    "lb": [
+     0.03,
+     1,
+     0.04
+    ],
+    "ea": 1.4,
+    "s": 3.8144,
+    "p": [
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      -0.06,
+      1.4,
+      -0.08
+     ],
+     [
+      0.4,
+      5.14,
+      0.51
+     ],
+     [
+      1.9,
+      8.09,
+      2.41
+     ],
+     [
+      4.25,
+      8.46,
+      5.39
+     ],
+     [
+      6.17,
+      6.25,
+      7.83
+     ],
+     [
+      6.78,
+      2.57,
+      8.6
+     ],
+     [
+      7.09,
+      -1.2,
+      8.99
+     ],
+     [
+      7.04,
+      -2.6,
+      8.93
+     ]
+    ]
+   }
+  },
+  {
+   "a": "u15|GND",
+   "b": "u16|c12",
+   "flex": {
+    "k": "u15|GND>u16|c12",
+    "a": [
+     -18.08,
+     2.85,
+     62
+    ],
+    "b": [
+     -76.38,
+     8.6,
+     12.11
+    ],
+    "da": [
+     -0.11,
+     0.99,
+     -0.02
+    ],
+    "db": [
+     0.12,
+     0.99,
+     0.03
+    ],
+    "la": [
+     -0.11,
+     0.99,
+     -0.02
+    ],
+    "lb": [
+     0.12,
+     0.99,
+     0.03
+    ],
+    "ea": 1.4,
+    "s": 3.9961,
+    "p": [
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      -0.15,
+      1.39,
+      -0.03
+     ],
+     [
+      -3.26,
+      3.81,
+      0.67
+     ],
+     [
+      -6.86,
+      5.47,
+      1.17
+     ],
+     [
+      -9.83,
+      7.7,
+      2.65
+     ],
+     [
+      -13.52,
+      9.2,
+      2.44
+     ],
+     [
+      -16.07,
+      10.87,
+      -0.15
+     ],
+     [
+      -18.7,
+      12.57,
+      -2.63
+     ],
+     [
+      -21.02,
+      13.97,
+      -5.56
+     ],
+     [
+      -23.32,
+      15.2,
+      -8.6
+     ],
+     [
+      -25.63,
+      16.16,
+      -11.71
+     ],
+     [
+      -27.99,
+      16.87,
+      -14.86
+     ],
+     [
+      -30.4,
+      17.3,
+      -18.01
+     ],
+     [
+      -32.86,
+      17.46,
+      -21.16
+     ],
+     [
+      -35.34,
+      17.35,
+      -24.29
+     ],
+     [
+      -37.86,
+      16.97,
+      -27.37
+     ],
+     [
+      -40.39,
+      16.35,
+      -30.4
+     ],
+     [
+      -42.93,
+      15.51,
+      -33.37
+     ],
+     [
+      -45.47,
+      14.46,
+      -36.27
+     ],
+     [
+      -48.01,
+      13.25,
+      -39.11
+     ],
+     [
+      -50.55,
+      11.9,
+      -41.88
+     ],
+     [
+      -53.09,
+      10.43,
+      -44.59
+     ],
+     [
+      -55.62,
+      8.83,
+      -47.24
+     ],
+     [
+      -58.13,
+      7.14,
+      -49.85
+     ],
+     [
+      -58.3,
+      5.75,
+      -49.89
+     ]
+    ]
+   }
+  },
+  {
+   "a": "u15|VRy",
+   "b": "u1|A1",
+   "flex": {
+    "k": "u15|VRy>u1|A1",
+    "a": [
+     -10.46,
+     2.85,
+     62
+    ],
+    "b": [
+     -70.72,
+     11.2,
+     -1.9
+    ],
+    "da": [
+     -0.11,
+     0.99,
+     0
+    ],
+    "db": [
+     0.14,
+     0.99,
+     0
+    ],
+    "la": [
+     -0.11,
+     0.99,
+     0
+    ],
+    "lb": [
+     0.14,
+     0.99,
+     0
+    ],
+    "ea": 1.4,
+    "s": 4.0448,
+    "p": [
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      -0.15,
+      1.39,
+      0
+     ],
+     [
+      -1.67,
+      5.14,
+      0.03
+     ],
+     [
+      -3.19,
+      8.89,
+      0.05
+     ],
+     [
+      -4.71,
+      12.64,
+      0.08
+     ],
+     [
+      -6.22,
+      16.35,
+      -0.5
+     ],
+     [
+      -7.6,
+      19.77,
+      -2.14
+     ],
+     [
+      -10.06,
+      21.09,
+      -5.07
+     ],
+     [
+      -12.65,
+      21.4,
+      -8.16
+     ],
+     [
+      -15.25,
+      21.32,
+      -11.26
+     ],
+     [
+      -17.82,
+      20.71,
+      -14.32
+     ],
+     [
+      -20.39,
+      20.09,
+      -17.38
+     ],
+     [
+      -22.96,
+      19.47,
+      -20.44
+     ],
+     [
+      -25.53,
+      18.83,
+      -23.5
+     ],
+     [
+      -28.11,
+      18.2,
+      -26.55
+     ],
+     [
+      -30.69,
+      17.55,
+      -29.6
+     ],
+     [
+      -33.27,
+      16.9,
+      -32.65
+     ],
+     [
+      -35.85,
+      16.23,
+      -35.69
+     ],
+     [
+      -38.44,
+      15.56,
+      -38.72
+     ],
+     [
+      -41.03,
+      14.88,
+      -41.76
+     ],
+     [
+      -43.62,
+      14.19,
+      -44.79
+     ],
+     [
+      -46.21,
+      13.5,
+      -47.81
+     ],
+     [
+      -48.81,
+      12.8,
+      -50.83
+     ],
+     [
+      -51.4,
+      12.1,
+      -53.85
+     ],
+     [
+      -54,
+      11.39,
+      -56.87
+     ],
+     [
+      -56.6,
+      10.68,
+      -59.89
+     ],
+     [
+      -60.06,
+      9.74,
+      -63.9
+     ],
+     [
+      -60.26,
+      8.35,
+      -63.9
+     ]
+    ],
+    "loose": 1
+   }
+  },
+  {
+   "a": "u15|SW",
+   "b": "u1|D2",
+   "flex": {
+    "k": "u15|SW>u1|D2",
+    "a": [
+     -7.92,
+     2.85,
+     62
+    ],
+    "b": [
+     -46.58,
+     11.2,
+     -50.1
+    ],
+    "da": [
+     -0.12,
+     0.99,
+     0.07
+    ],
+    "db": [
+     0.14,
+     0.99,
+     -0.08
+    ],
+    "la": [
+     -0.12,
+     0.99,
+     0.07
+    ],
+    "lb": [
+     0.14,
+     0.99,
+     -0.08
+    ],
+    "ea": 1.4,
+    "s": 3.9776,
+    "p": [
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      -0.17,
+      1.39,
+      0.1
+     ],
+     [
+      -0.88,
+      5.3,
+      0.1
+     ],
+     [
+      -1.59,
+      9.21,
+      0.09
+     ],
+     [
+      -2.31,
+      13.12,
+      0.09
+     ],
+     [
+      -3,
+      16.96,
+      -0.68
+     ],
+     [
+      -3.58,
+      20.25,
+      -2.84
+     ],
+     [
+      -4.6,
+      21.31,
+      -6.55
+     ],
+     [
+      -5.67,
+      21.63,
+      -10.37
+     ],
+     [
+      -6.71,
+      21.94,
+      -14.19
+     ],
+     [
+      -7.77,
+      22.23,
+      -18.02
+     ],
+     [
+      -8.87,
+      22.5,
+      -21.84
+     ],
+     [
+      -9.94,
+      22.69,
+      -25.65
+     ],
+     [
+      -11.04,
+      22.86,
+      -29.46
+     ],
+     [
+      -12.18,
+      22.96,
+      -33.28
+     ],
+     [
+      -13.29,
+      23,
+      -37.09
+     ],
+     [
+      -14.44,
+      22.96,
+      -40.9
+     ],
+     [
+      -15.62,
+      22.86,
+      -44.7
+     ],
+     [
+      -16.8,
+      22.68,
+      -48.51
+     ],
+     [
+      -17.96,
+      22.42,
+      -52.28
+     ],
+     [
+      -19.18,
+      22.08,
+      -56.05
+     ],
+     [
+      -20.4,
+      21.66,
+      -59.82
+     ],
+     [
+      -21.61,
+      21.17,
+      -63.57
+     ],
+     [
+      -22.85,
+      20.61,
+      -67.32
+     ],
+     [
+      -24.08,
+      19.98,
+      -71.04
+     ],
+     [
+      -25.35,
+      19.28,
+      -74.76
+     ],
+     [
+      -26.6,
+      18.52,
+      -78.47
+     ],
+     [
+      -27.86,
+      17.7,
+      -82.14
+     ],
+     [
+      -29.12,
+      16.85,
+      -85.79
+     ],
+     [
+      -30.39,
+      15.97,
+      -89.46
+     ],
+     [
+      -31.68,
+      15.04,
+      -93.11
+     ],
+     [
+      -32.96,
+      14.07,
+      -96.75
+     ],
+     [
+      -34.22,
+      13.08,
+      -100.38
+     ],
+     [
+      -35.53,
+      12.07,
+      -104.02
+     ],
+     [
+      -36.81,
+      11.04,
+      -107.63
+     ],
+     [
+      -38.46,
+      9.73,
+      -112.21
+     ],
+     [
+      -38.66,
+      8.35,
+      -112.1
+     ]
+    ]
+   }
+  },
+  {
+   "a": "u15|VRx",
+   "b": "u1|A0",
+   "flex": {
+    "k": "u15|VRx>u1|A0",
+    "a": [
+     -13,
+     2.85,
+     62
+    ],
+    "b": [
+     -73.26,
+     11.2,
+     -1.9
+    ],
+    "da": [
+     -0.1,
+     0.99,
+     0
+    ],
+    "db": [
+     0.13,
+     0.99,
+     0
+    ],
+    "la": [
+     -0.1,
+     0.99,
+     0
+    ],
+    "lb": [
+     0.13,
+     0.99,
+     0
+    ],
+    "ea": 1.4,
+    "s": 4.0457,
+    "p": [
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      -0.14,
+      1.39,
+      0
+     ],
+     [
+      -1.66,
+      5.14,
+      0.03
+     ],
+     [
+      -3.18,
+      8.89,
+      0.06
+     ],
+     [
+      -4.69,
+      12.64,
+      0.09
+     ],
+     [
+      -6.19,
+      16.36,
+      -0.47
+     ],
+     [
+      -7.58,
+      19.79,
+      -2.11
+     ],
+     [
+      -10.06,
+      21.07,
+      -5.04
+     ],
+     [
+      -12.66,
+      21.25,
+      -8.13
+     ],
+     [
+      -15.24,
+      20.68,
+      -11.19
+     ],
+     [
+      -17.82,
+      20.1,
+      -14.26
+     ],
+     [
+      -20.4,
+      19.53,
+      -17.32
+     ],
+     [
+      -22.98,
+      18.94,
+      -20.38
+     ],
+     [
+      -25.55,
+      18.35,
+      -23.44
+     ],
+     [
+      -28.14,
+      17.75,
+      -26.5
+     ],
+     [
+      -30.72,
+      17.13,
+      -29.55
+     ],
+     [
+      -33.3,
+      16.51,
+      -32.6
+     ],
+     [
+      -35.89,
+      15.88,
+      -35.65
+     ],
+     [
+      -38.48,
+      15.24,
+      -38.69
+     ],
+     [
+      -41.07,
+      14.6,
+      -41.73
+     ],
+     [
+      -43.66,
+      13.95,
+      -44.77
+     ],
+     [
+      -46.26,
+      13.29,
+      -47.8
+     ],
+     [
+      -48.85,
+      12.63,
+      -50.83
+     ],
+     [
+      -51.45,
+      11.96,
+      -53.86
+     ],
+     [
+      -54.05,
+      11.29,
+      -56.89
+     ],
+     [
+      -56.65,
+      10.62,
+      -59.92
+     ],
+     [
+      -60.08,
+      9.74,
+      -63.9
+     ],
+     [
+      -60.26,
+      8.35,
+      -63.9
+     ]
+    ],
+    "loose": 1
+   }
+  }
+ ],
+ "code": "#include <Adafruit_GFX.h>\n#include <Adafruit_ST7735.h>\n#include <SPI.h>\n\n#define TFT_CS 10\n#define TFT_DC 9\n#define TFT_RST 8\n\nAdafruit_ST7735 pantalla = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);\n\n// DIMENSIONES DE LA PANTALLA ST7735\nconst int ANCHO_PANTALLA = 128;\nconst int ALTO_PANTALLA = 160;\n\n// VARIABLES DE LA SERPIENTE ARTICULADA\nconst int MAX_LARGO = 60;      // Largo máximo de segmentos\nint cuerpoX[MAX_LARGO];        // Posiciones X de cada parte del cuerpo\nint cuerpoY[MAX_LARGO];        // Posiciones Y de cada parte del cuerpo\nint largoActual = 3;           // Cantidad de segmentos (empieza con 3)\nint velocidad = 5;             // Distancia entre segmentos (5px evita huecos)\n\n// VARIABLES DE LAS MANZANAS\nconst int cantidadmanzanas = 3;\nint manzanaX[cantidadmanzanas];\nint manzanaY[cantidadmanzanas];\n\n// PINES DEL JOYSTICK\nconst int PIN_JOYSTICK_X = A0; \nconst int PIN_JOYSTICK_Y = A1; \n\nint nivel = 1;\nbool juegoIniciado = false; \nint puntuacion = 0;\n\n// DIRECCIONES DE LA SERPIENTE\nenum Direccion { ARRIBA, ABAJO, IZQUIERDA, DERECHA };\nDireccion dirActual = ARRIBA;\n\nvoid setup() {\n  pantalla.initR(INITR_BLACKTAB);\n  pantalla.fillScreen(ST77XX_WHITE);\n  randomSeed(analogRead(A2));\n  mostrarMenuInicial();\n}\n\nvoid loop() {\n  int valorX = analogRead(PIN_JOYSTICK_X);\n  int valorY = analogRead(PIN_JOYSTICK_Y);\n\n  if (!juegoIniciado) {\n    // === MODO SELECCIÓN DE NIVEL ===\n    if (valorY < 200) {\n      juegoIniciado = true;\n      dirActual = ARRIBA; \n      largoActual = 3;\n      puntuacion = 0;     \n      comenzarJuego();    \n    }\n    else if (valorX < 200 && nivel > 1) {\n      nivel--; \n      actualizarMenu();\n      delay(300); \n    }\n    else if (valorX > 850 && nivel < 3) {\n      nivel++; \n      actualizarMenu();\n      delay(300); \n    }\n    delay(30); \n  } \n  else {\n    // === MODO JUEGO EN MARCHA ===\n    \n    // Mostrar puntuación en pantalla\n    pantalla.setCursor(5, 5);\n    pantalla.setTextColor(ST77XX_BLACK, ST77XX_WHITE);\n    pantalla.setTextSize(1);\n    pantalla.print(\"Score: \");\n    pantalla.print(puntuacion);\n    puntuacion++; \n\n    // 1. DETECTAMOS EL CAMBIO DE DIRECCIÓN\n    if (valorX < 200 && dirActual != DERECHA) {\n      dirActual = IZQUIERDA;\n    } else if (valorX > 800 && dirActual != IZQUIERDA) {\n      dirActual = DERECHA;\n    } else if (valorY < 200 && dirActual != ABAJO) {\n      dirActual = ARRIBA;\n    } else if (valorY > 800 && dirActual != ARRIBA) {\n      dirActual = ABAJO;\n    }\n\n    // 2. BORRAMOS SOLO LA PUNTA DE LA COLA Y LA LENGUA ANTERIOR\n    borrarCola();\n\n    // 3. DESPLAZAMOS EL CUERPO Y MOVEMOS LA CABEZA\n    moverSerpiente();\n\n    // 4. REVISAR SI CHOCÓ BORDES, OBSTÁCULOS O CONSIGO MISMA\n    if (verificarMuerte()) {\n      pantalla.fillScreen(ST77XX_WHITE);\n      pantalla.setCursor(20, 50);\n      pantalla.setTextColor(ST77XX_BLACK, ST77XX_WHITE);\n      pantalla.setTextSize(2);\n      pantalla.println(\"MORISTE\");\n      pantalla.setCursor(25, 70);\n      pantalla.println(\"Puntos:\");\n      pantalla.setCursor(60, 100);\n      pantalla.println(puntuacion);\n      delay(3000);\n      pantalla.fillScreen(ST77XX_WHITE);\n      juegoIniciado = false;\n      mostrarMenuInicial();\n      return; \n    }\n\n    // 5. DIBUJAR SERPIENTE Y VERIFICAR MANZANAS\n    dibujarSerpiente(); \n    comerManzana();\n    dibujarManzanas();\n\n    // 6. CONTROL DE VELOCIDAD CONSTANTE\n    delay(150);\n  }\n}\n\n// --- MOVIMIENTO ARTICULADO ---\nvoid moverSerpiente() {\n  // Cada segmento toma la posición del segmento anterior (de atrás hacia adelante)\n  for (int i = largoActual - 1; i > 0; i--) {\n    cuerpoX[i] = cuerpoX[i - 1];\n    cuerpoY[i] = cuerpoY[i - 1];\n  }\n\n  // La cabeza (índice 0) avanza en la dirección actual\n  switch (dirActual) {\n    case ARRIBA:    cuerpoY[0] -= velocidad; break;\n    case ABAJO:     cuerpoY[0] += velocidad; break;\n    case IZQUIERDA: cuerpoX[0] -= velocidad; break;\n    case DERECHA:   cuerpoX[0] += velocidad; break;\n  }\n}\n\n// --- DIBUJO Y LIMPIEZA ---\nvoid borrarCola() {\n  // 1. Borra el último segmento de la cola\n  int colaX = cuerpoX[largoActual - 1];\n  int colaY = cuerpoY[largoActual - 1];\n  pantalla.fillCircle(colaX, colaY, 3, ST77XX_WHITE);\n\n  // 2. Borra la lengua anterior de la cabeza (pintando de blanco en las 4 posibles direcciones)\n  int cabX = cuerpoX[0];\n  int cabY = cuerpoY[0];\n  pantalla.drawLine(cabX, cabY - 4, cabX, cabY - 5, ST77XX_WHITE); // Arriba\n  pantalla.drawLine(cabX, cabY + 4, cabX, cabY + 5, ST77XX_WHITE); // Abajo\n  pantalla.drawLine(cabX - 4, cabY, cabX - 5, cabY, ST77XX_WHITE); // Izquierda\n  pantalla.drawLine(cabX + 4, cabY, cabX + 5, cabY, ST77XX_WHITE); // Derecha\n}\n\nvoid dibujarSerpiente() {\n  // 1. Dibuja todo el cuerpo (desde el segmento 1 hasta el final)\n  for (int i = 1; i < largoActual; i++) {\n    pantalla.fillCircle(cuerpoX[i], cuerpoY[i], 3, ST77XX_GREEN);\n  }\n\n  // 2. Dibuja la cabeza encima (índice 0) para borrar los ojos anteriores\n  int x = cuerpoX[0];\n  int y = cuerpoY[0];\n  pantalla.fillCircle(x, y, 3, ST77XX_GREEN);\n\n  // 3. Dibuja ojos y lengua roja según la dirección\n  switch (dirActual) {\n    case ARRIBA:\n      pantalla.drawPixel(x - 2, y - 1, ST77XX_BLACK);\n      pantalla.drawPixel(x + 2, y - 1, ST77XX_BLACK);\n      pantalla.drawLine(x, y - 3, x, y - 5, ST77XX_RED);\n      break;\n    case ABAJO:\n      pantalla.drawPixel(x - 2, y + 1, ST77XX_BLACK);\n      pantalla.drawPixel(x + 2, y + 1, ST77XX_BLACK);\n      pantalla.drawLine(x, y + 3, x, y + 5, ST77XX_RED);\n      break;\n    case IZQUIERDA:\n      pantalla.drawPixel(x - 1, y - 2, ST77XX_BLACK);\n      pantalla.drawPixel(x - 1, y + 2, ST77XX_BLACK);\n      pantalla.drawLine(x - 3, y, x - 5, y, ST77XX_RED);\n      break;\n    case DERECHA:\n      pantalla.drawPixel(x + 1, y - 2, ST77XX_BLACK);\n      pantalla.drawPixel(x + 1, y + 2, ST77XX_BLACK);\n      pantalla.drawLine(x + 3, y, x + 5, y, ST77XX_RED);\n      break;\n  }\n}\n\n// --- FUNCIÓN DE VERIFICACIÓN DE MUERTE ---\nbool verificarMuerte() {\n  int x = cuerpoX[0];\n  int y = cuerpoY[0];\n\n  // 1. Verificar colisión con los bordes físicos de la pantalla\n  if (x < 3 || x > (ANCHO_PANTALLA - 3) || y < 3 || y > (ALTO_PANTALLA - 3)) {\n    return true; \n  }\n\n  // 2. Verificar colisión con los obstáculos según el nivel actual\n  if (nivel == 2) {\n    if (x >= 0 && x <= 32 && y >= 0 && y <= 32) return true;\n    if (x >= 100 && x <= 130 && y >= 0 && y <= 27) return true;\n    if (x >= 48 && x <= 81 && y >= 116 && y <= 162) return true;\n  }\n  else if (nivel == 3) {\n    if (x >= 38 && x <= 90 && y >= 0 && y <= 15) return true;\n    if (x >= 34 && x <= 94 && y >= 130 && y <= 160) return true;\n    if (x >= 0 && x <= 25 && y >= 60 && y <= 100) return true;\n  }\n\n  // 3. Verificar colisión consigo misma (empieza desde i = 3 para no chocar con el cuello al doblar)\n  for (int i = 3; i < largoActual; i++) {\n    if (abs(x - cuerpoX[i]) < 4 && abs(y - cuerpoY[i]) < 4) {\n      return true;\n    }\n  }\n\n  return false;\n}\n\n// --- FUNCIONES MENÚ ---\nvoid mostrarMenuInicial() {\n  pantalla.setTextColor(ST77XX_BLACK); \n  pantalla.setTextSize(3);             \n  pantalla.setCursor(25, 35);          \n  pantalla.print(\"Nivel\");\n\n  pantalla.setTextColor(ST77XX_BLACK);\n  pantalla.setTextSize(3);\n  pantalla.setCursor(58, 105);\n  pantalla.print(nivel);\n  pantalla.setCursor(38, 105);\n  pantalla.print(\"<\");\n  pantalla.setCursor(78, 105);\n  pantalla.print(\">\");\n\n  // Dibujar la serpiente quieta en el menú\n  pantalla.fillCircle(65, 75, 3, ST77XX_GREEN); \n  pantalla.fillRect(63, 78, 5, 3, ST77XX_GREEN); \n  pantalla.drawPixel(63, 74, ST77XX_BLACK); \n  pantalla.drawPixel(67, 74, ST77XX_BLACK); \n  pantalla.drawLine(65, 73, 65, 71, ST77XX_RED); \n}\n\nvoid actualizarMenu() {\n  pantalla.fillRect(58, 105, 18, 22, ST77XX_WHITE);\n  pantalla.fillRect(50, 60, 30, 35, ST77XX_WHITE);\n\n  pantalla.setTextColor(ST77XX_BLACK);\n  pantalla.setTextSize(3);\n  pantalla.setCursor(58, 105);\n  pantalla.print(nivel);\n\n  pantalla.fillCircle(65, 75, 3, ST77XX_GREEN);\n  pantalla.fillRect(63, 78, 5, 3, ST77XX_GREEN);\n  pantalla.drawPixel(63, 74, ST77XX_BLACK);\n  pantalla.drawPixel(67, 74, ST77XX_BLACK);\n  pantalla.drawLine(65, 73, 65, 71, ST77XX_RED);\n}\n\nvoid comenzarJuego() {\n  pantalla.fillScreen(ST77XX_WHITE); \n\n  // Inicializar los segmentos iniciales en fila vertical hacia abajo\n  for (int i = 0; i < largoActual; i++) {\n    cuerpoX[i] = 65;\n    cuerpoY[i] = 70 + (i * velocidad);\n  }\n\n  if (nivel == 2) {\n    pantalla.fillRect(0, 0, 30, 30, ST77XX_BLACK);     \n    pantalla.fillRect(103, 0, 25, 25, ST77XX_BLACK);   \n    pantalla.fillRect(51, 121, 30, 40, ST77XX_BLACK);   \n  }\n  else if (nivel == 3) {\n    pantalla.fillRect(38, 0, 52, 15, ST77XX_BLACK);    \n    pantalla.fillRect(36, 131, 60, 30, ST77XX_BLACK);  \n    pantalla.fillRect(0, 60, 23, 40, ST77XX_BLACK);   \n  }\n\n  for (int i = 0; i < cantidadmanzanas; i++) {\n    generarManzanas(i);\n  }\n  \n  dibujarManzanas();\n  dibujarSerpiente();\n}\n\n// --- FUNCIONES DE MANZANAS ---\nvoid generarManzanas(int i) {\n  bool posicionValida = false;\n\n  while (!posicionValida) {\n    manzanaX[i] = random(8, 120);\n    manzanaY[i] = random(18, 152);\n\n    posicionValida = true;\n\n    // 1. Evitar que aparezca encima de la cabeza o el cuerpo\n    for (int k = 0; k < largoActual; k++) {\n      if (abs(manzanaX[i] - cuerpoX[k]) < 10 &&\n          abs(manzanaY[i] - cuerpoY[k]) < 10) {\n        posicionValida = false;\n      }\n    }\n\n    // 2. Evitar que aparezca encima de otra manzana\n    for (int j = 0; j < cantidadmanzanas; j++) {\n      if (j != i &&\n          abs(manzanaX[i] - manzanaX[j]) < 12 &&\n          abs(manzanaY[i] - manzanaY[j]) < 12) {\n        posicionValida = false;\n      }\n    }\n\n    // 3. Obstáculos del nivel 2\n    if (nivel == 2) {\n      if (manzanaX[i] < 36 && manzanaY[i] < 36) posicionValida = false;\n      if (manzanaX[i] > 97 && manzanaY[i] < 31) posicionValida = false;\n      if (manzanaX[i] > 43 && manzanaX[i] < 85 && manzanaY[i] > 114) posicionValida = false;\n    }\n\n    // 4. Obstáculos del nivel 3\n    if (nivel == 3) {\n      if (manzanaX[i] > 32 && manzanaX[i] < 96 && manzanaY[i] < 21) posicionValida = false;\nif (manzanaX[i] > 28 && manzanaX[i] < 100 && manzanaY[i] > 124) posicionValida = false;\nif (manzanaX[i] < 29 && manzanaY[i] > 54 && manzanaY[i] < 106) posicionValida = false;\n}\n}\n}\nvoid dibujarManzanas() {\nfor (int i = 0; i < cantidadmanzanas; i++) {\npantalla.fillCircle(manzanaX[i], manzanaY[i], 4, ST77XX_RED);\npantalla.fillCircle(manzanaX[i] - 2, manzanaY[i] - 2, 2, ST77XX_RED);\npantalla.drawLine(\nmanzanaX[i], manzanaY[i] - 4,\nmanzanaX[i] + 1, manzanaY[i] - 6,\nST77XX_GREEN\n);\n}\n}\nvoid comerManzana() {\nfor (int i = 0; i < cantidadmanzanas; i++) {\nif (abs(cuerpoX[0] - manzanaX[i]) < 7 &&\nabs(cuerpoY[0] - manzanaY[i]) < 7) {\n// Se borra la manzana\npantalla.fillCircle(manzanaX[i], manzanaY[i], 6, ST77XX_WHITE);\n// Si no llegó al límite máximo, agrega un segmento nuevo en la cola\nif (largoActual < MAX_LARGO) {\ncuerpoX[largoActual] = cuerpoX[largoActual - 1];\ncuerpoY[largoActual] = cuerpoY[largoActual - 1];\nlargoActual++;\n}\ngenerarManzanas(i);\npuntuacion += 50;\n}\n}\n}\n",
+ "prog": null
+}
